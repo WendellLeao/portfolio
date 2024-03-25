@@ -1,0 +1,47 @@
+footer {
+    width: 100%;
+    margin: 5em 0 0;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+footer h1 {
+    color: #45dbe9;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+footer a {
+    color: white;
+}
+
+footer p {
+    padding: 0.5em 20% 1.5em 20%;
+}
+
+footer button {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 1em 0 4em;
+    font-family: Calibri, serif;
+    font-size: 20px;
+}
+
+@media (max-width: 60em) {
+    .footerContactsDescription {
+        padding: 0 2em;
+    }
+}
+
+@media (max-width: 40em) {
+    footer p {
+        padding: 0.5em 1em 1.5em 1em;
+        font-size: 19px;
+    }
+
+    footer button {
+        margin: 2.5em 0 4em;
+    }
+}

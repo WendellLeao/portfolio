@@ -1,0 +1,42 @@
+.gameSideMenuContainer {
+    display: none;
+}
+
+.infoButton {
+    display: none;
+}
+
+@media (max-width: 45em) {
+    .gamesItem #gameSideMenu h1 {
+        color: white;
+    }
+    
+    #gameSideMenu {
+        display: flex;
+        max-width: 60%;
+        position: absolute;
+        overflow: hidden;
+        bottom: 5%;
+    }
+
+    .gameSideMenuContainer {
+        display: flex;
+        border-bottom: 3px solid #45dbe9;
+        background-color: rgba(0, 0, 0, 0.75);
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+        padding-bottom: 0.5rem;
+    }
+
+    .gameSideMenuContainer h1 {
+        font-size: 100%;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .gameSideMenuContainer a img {
+        width: 20px;
+        height: 20px;
+        margin-top: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}

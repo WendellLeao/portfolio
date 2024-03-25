@@ -1,0 +1,19 @@
+.arrows {
+    text-align: center;
+    padding-right: 2em;
+}
+
+.arrows img {
+    display: none;
+    width: 2.8em;
+    height: 2.8em;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1.5em;
+}
+
+@media (min-width: 110em) {
+    .arrows img {
+        display: initial;
+    }
+}

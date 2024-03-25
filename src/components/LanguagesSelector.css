@@ -1,0 +1,40 @@
+.languages {
+    width: 100px;
+}
+
+.languages a {
+    margin-right: 3px;
+    align-items: center;
+}
+
+.languages a:hover {
+    cursor: pointer;
+}
+
+.languages img {
+    width: 28px;
+    height: 28px;
+    margin-top: 8px;
+}
+
+.languages img:hover {
+    border-radius: 50%;
+    background-color: #45dbe9;
+}
+
+.languages .active img {
+    width: 23px;
+    height: 23px;
+    margin-top: 8px;
+    border-radius: 50%;
+    border: 2px solid #45dbe9;
+}
+
+.languages .active img:hover {
+    cursor: default;
+    background-color: transparent;
+}
+
+.languages .active:hover {
+    cursor: default;
+}

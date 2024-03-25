@@ -1,0 +1,15 @@
+.aboutButton {
+    display: flex;
+    padding-top: 3em;
+    justify-content: center;
+}
+
+.aboutButton button {
+    font-family: Calibri, serif;
+}
+
+@media (max-width: 60em) {
+    .aboutButton {
+        padding: 2em 0 4em;
+    }
+}

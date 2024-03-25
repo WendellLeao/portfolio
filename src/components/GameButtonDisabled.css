@@ -1,0 +1,26 @@
+.disabledButtonContainer {
+    margin: 2em 0 1.5em;
+}
+
+.disabledButtonContainer button {
+    color: white;
+    border: 1px solid white;
+}
+
+.disabledButtonContainer button:hover {
+    color: white;
+    background-color: rgb(46, 46, 46);
+}
+
+.disabledButtonContainer button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+@media (max-width: 60em) {
+    .disabledButtonContainer button {
+        max-height: 60px;
+        max-width: 35%;
+        font-size: 100%;
+    }
+}

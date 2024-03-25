@@ -1,0 +1,23 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.headerContainer {
+    display: flex;
+    padding: 13px 0;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.headerContainer a {
+    font-size: 15px;
+}
+
+@media (max-width: 60em) {
+    header {
+        position: relative;
+    }
+}

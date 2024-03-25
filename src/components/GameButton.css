@@ -1,0 +1,49 @@
+.buttonContainer {
+    margin: 1em 0 1em;
+    justify-content: center;
+}
+
+.buttonContainer button {
+    display: flex;
+    max-width: 200px;
+    max-height: 130px;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 17px;
+    border-radius: 2%;
+    border: 1px solid white;
+}
+
+.buttonContainer img {
+    max-width: 200px;
+    max-height: 130px;
+    margin: 1rem 0 1rem;
+}
+
+.buttonContainer img:hover {
+    border-radius: 2%;
+    outline: 2px solid #45dbe9;
+}
+
+.buttonContainer .steamLogo {
+    outline: 1px solid white;
+    border-radius: 2%;
+}
+
+.buttonContainer .itchLogo {
+    border-radius: 2%;
+}
+
+@media (max-width: 60em) {
+    .buttonContainer {
+        margin: 0.5em 0 0.5em;
+    }
+
+    .buttonContainer img {
+        max-width: 35%;
+        max-height: 35%;
+    }
+}

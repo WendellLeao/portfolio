@@ -1,0 +1,32 @@
+#aboutDescription {
+    text-align: center;
+}
+
+#aboutDescription h1 {
+    padding-bottom: 1.5em;
+}
+
+#aboutDescription p {
+    max-width: 50%;
+    justify-self: center;
+}
+
+#aboutDescription .picture {
+    padding-bottom: 3em;
+}
+
+#aboutDescription .picture img {
+    max-width: 15em;
+    margin: 0 0;
+}
+
+@media (max-width: 60em) {
+    #home #aboutDescription p {
+        max-width: 90%;
+        font-size: 19px;
+    }
+
+    #aboutDescription .picture img {
+        max-width: 13em;
+    }
+}

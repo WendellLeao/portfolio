@@ -1,0 +1,122 @@
+#home {
+    padding: 4.5em 0;
+    overflow: hidden;
+}
+
+#home h1 {
+    position: relative;
+    margin: 0;
+    padding-top: 5px;
+    text-transform: uppercase;
+    color: #45dbe9;
+    animation: slideRevealLeft 0.6s;
+}
+
+#home p {
+    font-family: "Courier New", serif;
+    font-size: 22px;
+}
+
+#home .picture img {
+    border-radius: 10%;
+    border: 2px solid #45dbe9;
+}
+
+#homeDescription p {
+    position: relative;
+    animation: slideRevealLeftDescription 0.8s;
+}
+
+.homeContacts {
+    position: relative;
+    animation: slideRevealLeft 0.8s;
+}
+
+#homeDescription .picture {
+    position: relative;
+    animation: slideRight 0.9s;
+}
+
+#homeDescription h2,
+#aboutDescription p {
+    position: relative;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    animation: .3s cubic-bezier(1,-0.01,.12,.8) 0.85s 1 reveal forwards;
+}
+
+#homeDescription h2::after, 
+#aboutDescription p::after {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: inherit;
+    content: '';
+    background: #45dbe9;
+    animation: .4s cubic-bezier(1,-0.01,.12,.8) 1s 1 hideBlack forwards;
+}
+
+#home #aboutDescription p {
+    animation: .3s cubic-bezier(1,-0.01,.12,.8) 0.45s 1 reveal forwards;
+}
+
+#home #aboutDescription p::after {
+    width: 100%;
+    animation: .4s cubic-bezier(1,-0.01,.12,.8) 0.7s 1 hideBlack forwards;
+}
+
+@media (min-width: 110em) {
+    #home {
+        min-height: 100vh;
+        padding: 4.5em 0 0;
+    }
+}
+
+@media (max-width: 60em) {
+    #home {
+        min-height: 0;
+        padding: 1em 0 0;
+    }
+    
+    #home #homeDescription h2::after, 
+    #home #aboutDescription p::after {
+        width: 100%;
+    }
+}
+
+@keyframes slideRevealLeft {
+    from { clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%); }
+    to { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(0%); }
+}
+
+@keyframes slideRevealLeftDescription {
+    from { clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%); }
+    to { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+
+    0% { transform: translateX(10%); }
+    100% { transform: translateX(0%); }
+}
+
+@keyframes slideLeft {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(0%); }
+}
+
+@keyframes slideRight {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0%); }
+}
+
+@keyframes reveal {
+    from { clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%); }
+    to { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+}
+
+@keyframes hideBlack {
+    from { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+    to { clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%); }
+}

@@ -1,0 +1,136 @@
+#gameDescription {
+    min-width: 30em;
+    max-width: 33%;
+    position: absolute;
+    bottom: 5%;
+    text-align: center;
+}
+
+#gameDescription em p {
+    color: rgb(171, 171, 171);
+    font-size: 16px;
+}
+
+#gameDescription em,
+#gameDescription h1,
+#gameDescription p {
+    padding: 0 4.5rem;
+}
+
+#gameDescription h1 {
+    padding-top: 2rem;
+}
+
+#gameDescription p {
+    text-align: justify;
+    font-size: 18px;
+    margin: 0;
+}
+
+.gameDescriptionContainer {
+    border-bottom: 5px solid #45dbe9;
+    background-color: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+
+.gameDescriptionLine {
+    height: 2px;
+    margin-top: 10px;
+    background-color: #45dbe9;
+}
+
+.closeButton {
+    display: none;
+}
+
+.closeButton button {
+}
+
+.gamesItem .right {
+    right: 4%;
+}
+
+.gamesItem .left {
+    left: 4%;
+}
+
+@media (max-width: 60em) {
+    #gameDescription em,
+    #gameDescription h1,
+    #gameDescription p {
+        padding: 0 1rem;
+    }
+    
+    #gameDescription h1 {
+        padding-top: 1rem;
+        font-size: 25px;
+    }
+
+    #gameDescription p {
+        font-size: 15px;
+    }
+    
+    #gameDescription .synopses {
+        display: none;
+    }
+}
+
+@media (max-width: 45em) {
+    #gameDescription {
+        display: none;
+        flex-direction: column;
+        top: 0;
+        min-width: 100%;
+        margin-top: 10em;
+        align-items: center;
+        right: 0;
+        left: 0;
+    }
+
+    #gameDescription em,
+    #gameDescription h1,
+    #gameDescription p {
+        padding: 0 1rem;
+    }
+
+    #gameDescription h1 {
+        padding-top: 1em;
+        font-size: 20px;
+    }
+
+    #gameDescription p {
+        font-size: 15px;
+    }
+    
+    .gameDescriptionContainer {
+        margin: 0 0.5em;
+    }
+
+    .gameDescriptionContainer p {
+        font-size: 15px;
+    }
+    
+    #gameDescription .description {
+        margin-bottom: 0;
+    }
+
+    #gameDescription .synopses {
+        display: none;
+    }
+
+    .closeButton {
+        display: block;
+        max-width: 30px;
+        max-height: 30px;
+        font-size: 15px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .closeButton img {
+        width: 25px;
+        height: 25px;
+    }
+}
