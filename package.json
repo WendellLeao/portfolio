@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@tsparticles/engine": "^3.3.0",
     "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.3.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.91",
     "@types/react": "^18.2.70",
