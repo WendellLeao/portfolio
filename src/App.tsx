@@ -10,7 +10,7 @@ const Footer = lazy(() => import ("./components/Footer"));
 function App() : JSX.Element {
   return (
       <div>
-        {/*<BackgroundParticles />*/}
+        <BackgroundParticles />
         <Suspense>
           <Header />
           <Home />
