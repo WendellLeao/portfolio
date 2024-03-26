@@ -1,5 +1,5 @@
 import GameItem from "./GameItem";
-import origensImageUrl from '/images/origens-image.png';
+import origensImageUrl from '../images/origens-image.png';
 
 const OrigensGameItem = () => {
     const origensUrl: string = "https://wendell-leao.itch.io/origens";

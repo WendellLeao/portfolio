@@ -1,4 +1,4 @@
-import infoIcon from '/images/info-icon.png';
+import infoIcon from '../images/info-icon.png';
 import './GameSideMenu.css';
 
 interface Props {

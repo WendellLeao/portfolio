@@ -1,5 +1,5 @@
 import GameItem from "./GameItem";
-import overthrowImageUrl from '/images/overthrow-image.png';
+import overthrowImageUrl from '../images/overthrow-image.png';
 
 const OverthowGameItem = () => {
     const overthrowUrl: string = "https://wendell-leao.itch.io/overthrow-2";

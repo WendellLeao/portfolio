@@ -1,15 +1,15 @@
 import {useTranslation} from 'react-i18next';
 import {ShowHomeDescription} from './Home';
+import {Reveal} from "./Reveal";
 import FooterContacts from './FooterContacts';
 import Line from './Line';
 import './Footer.css';
-import {Reveal} from "./Reveal";
 
 const Footer = () => {
     const { t, i18n } = useTranslation();
     
     function HandleButtonClick() : void {
-        location.href='#top';
+        // location.href='#top';
         ShowHomeDescription();
     }
     

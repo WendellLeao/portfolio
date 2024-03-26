@@ -1,5 +1,5 @@
 import GameItem from "./GameItem";
-import funkinFighterImageUrl from '/images/funkin-fighter-image.png';
+import funkinFighterImageUrl from '../images/funkin-fighter-image.png';
 
 const FunkinFighterGameItem = () => {
     const funkinFighterUrl: string = "";

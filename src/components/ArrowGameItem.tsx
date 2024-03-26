@@ -1,5 +1,5 @@
 import GameItem from "./GameItem";
-import arrowImageUrl from '/images/arrow-image.png';
+import arrowImageUrl from '../images/arrow-image.png';
 
 const Origens = () => {
     const arrowUrl: string = "https://wendell-leao.itch.io/arrow-is-cool-in-the-cemetery-skull";

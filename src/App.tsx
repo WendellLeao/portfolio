@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { lazy, Suspense } from "react";
+import BackgroundParticles from "./components/BackgroundParticles";
 import './App.css';
 
-function App() {
+const Header = lazy(() => import ("./components/Header"));
+const Home = lazy(() => import ("./components/Home"));
+const Games = lazy(() => import ("./components/Games"));
+const Footer = lazy(() => import ("./components/Footer"));
+
+function App() : JSX.Element {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload 2.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <div>
+        {/*<BackgroundParticles />*/}
+        <Suspense>
+          <Header />
+          <Home />
+          <Games />
+          <Footer />
+        </Suspense>
+      </div>
+  )
 }
 
 export default App;

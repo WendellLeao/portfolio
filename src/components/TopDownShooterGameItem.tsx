@@ -1,5 +1,5 @@
 import GameItem from "./GameItem";
-import topDownShooterImageUrl from '/images/top-down-shooter-image.png';
+import topDownShooterImageUrl from '../images/top-down-shooter-image.png';
 
 const TopDownShooterGameItem = () => {
     const topDownShooterUrl: string = "";

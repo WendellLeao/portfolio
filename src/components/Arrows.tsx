@@ -1,5 +1,5 @@
 import {motion} from "framer-motion";
-import arrowsImage from '/images/arrows.png';
+import arrowsImage from '../images/arrows.png';
 import './Arrows.css';
 
 const Arrows = () => {

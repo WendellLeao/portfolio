@@ -1,6 +1,6 @@
 import {useTranslation} from 'react-i18next';
 import HomeContacts from './HomeContacts';
-import profileImage from '/images/profile.png';
+import profileImage from '../images/profile.png';
 import './HomeDescription.css';
 
 const HomeDescription = () => {
