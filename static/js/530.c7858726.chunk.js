@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[530],{7080:(i,t,e)=>{e.r(t),e.d(t,{default:()=>o});var n=e(9795);const s=e.p+"static/media/funkin-fighter-image.48b16219b710eb634b7c.png";var r=e(579);const o=()=>(0,r.jsx)(n.A,{id:"funkinFighter",title:"Funkin' Fighter",synopses:"funkinFighterSynopsis",description:"funkinFighterDescription",store:"itch",side:"right",url:"",videoUrl:"https://dai.ly/k2JL8SvGjEqiKOAk9F2",imageUrl:s})}}]);
-//# sourceMappingURL=530.c7858726.chunk.js.map
