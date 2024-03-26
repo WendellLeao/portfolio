@@ -8,20 +8,18 @@ interface Props {
 
 const GameVideo = ({ videoUrl, onStart }: Props) => {
     return (
-        <div className="playerWrapper">
-            <ReactPlayer
-                className="reactPlayer"
-                url={videoUrl}
-                width="100%"
-                height="100%"
-                playing={true}
-                muted={true}
-                loop={true}
-                controls={false}
-                onStart={onStart}
-            />
-        </div>
-    );
+        <ReactPlayer
+            className="reactPlayer"
+            url={videoUrl}
+            width="100%"
+            height="100%"
+            playing={true}
+            muted={true}
+            loop={true}
+            controls={false}
+            onStart={onStart}
+        />
+    )
 }
 
 export default GameVideo;
