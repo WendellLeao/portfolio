@@ -7,7 +7,10 @@ import './LanguagesSelector.css';
 const LanguageSelector = () => {
     const { t, i18n } = useTranslation();
 
-    useEffect(() => {
+    const englishId : string = "en-US";
+    const portugueseId : string = "pt-BR";
+    
+    useEffect(() : void => {
         HandleButtonActive(i18n.language);
     }, []);
     
@@ -20,10 +23,10 @@ const LanguageSelector = () => {
     function HandleButtonActive(language: string) : void {
         const languages : Element | null = document.querySelector(".languages");
 
-        if(languages){
+        if (languages) {
             const activeLanguage : Element | null = languages.querySelector(".active");
 
-            if(activeLanguage){
+            if (activeLanguage) {
                 activeLanguage.classList.remove("active");
             }
         }
@@ -43,10 +46,10 @@ const LanguageSelector = () => {
     
     return (
         <div className="languages">
-            <a id="en" onClick={() => HandleClick("en")}>
+            <a id={englishId} onClick={() => HandleClick(englishId)}>
                 <img src={usaImage} alt="usa icon"></img>
             </a>
-            <a id="pt" onClick={() => HandleClick("pt")}>
+            <a id={portugueseId} onClick={() => HandleClick(portugueseId)}>
                 <img src={brazilImage} alt="brazil icon"></img>
             </a>
         </div>
