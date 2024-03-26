@@ -9,7 +9,7 @@ const Footer = () => {
     const { t, i18n } = useTranslation();
     
     function HandleButtonClick() : void {
-        // location.href='#top';
+        window.location.href='#top';
         ShowHomeDescription();
     }
     
