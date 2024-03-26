@@ -3,7 +3,7 @@ import jumpImageUrl from '../images/jump-up-image.png';
 
 const JumpGameItem = () => {
     const jumpUrl: string = "https://wendell-leao.itch.io/jump-up-2";
-    const jumpVideoUrl: string = "https://dai.ly/k2EGsa1Ftv41d8Ak9Fi";
+    const jumpVideoUrl: string = "videos/jump-up-2.mp4";
     
     return (
         <GameItem id="jump" title="Jump Up 2" synopses="jumpSynopsis" description="jumpDescription" store="itch"

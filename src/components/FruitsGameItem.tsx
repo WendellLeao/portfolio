@@ -3,7 +3,7 @@ import fruitsImageUrl from '../images/fruits-image.png';
 
 const FruitsGameItem = () => {
     const fruitsUrl: string = "https://wendell-leao.itch.io/fruits";
-    const fruitsVideoUrl: string = "https://dai.ly/k3Ff2MbWiQbA1BAk9F8";
+    const fruitsVideoUrl: string = "videos/fruits.mp4";
     
     return (
         <GameItem id="fruits" title="Fruits" synopses="fruitsSynopsis" description="fruitsDescription" store="itch"

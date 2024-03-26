@@ -3,7 +3,7 @@ import horrorImageUrl from '../images/horror-image.png';
 
 const HorrorGameItem = () => {
     const horrorUrl: string = "";
-    const horrorVideoUrl: string = "https://dai.ly/k6reVdC5CfvckUAk9Fa";
+    const horrorVideoUrl: string = "videos/horror.mp4";
 
     return (
         <GameItem id="horror" title="Where Are You?" synopses="horrorSynopsis" description="horrorDescription" store="steam"

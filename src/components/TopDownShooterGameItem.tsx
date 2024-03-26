@@ -3,7 +3,7 @@ import topDownShooterImageUrl from '../images/top-down-shooter-image.png';
 
 const TopDownShooterGameItem = () => {
     const topDownShooterUrl: string = "";
-    const topDownShooterVideoUrl: string = "https://dai.ly/k2Mf45apgm0g86Ak9Fc";
+    const topDownShooterVideoUrl: string = "videos/top-down-shooter.mp4";
     
     return (
         <GameItem id="topDownShooter" title="Top Down Shooter" synopses="topDownShooterSynopsis" description="topDownShooterDescription" store="itch"

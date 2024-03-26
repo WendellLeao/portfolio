@@ -3,7 +3,7 @@ import origensImageUrl from '../images/origens-image.png';
 
 const OrigensGameItem = () => {
     const origensUrl: string = "https://wendell-leao.itch.io/origens";
-    const origensVideoUrl: string = "https://dai.ly/k6Dahmu0Mm23mZAk9Fk";
+    const origensVideoUrl: string = "videos/origens.mp4";
     
     return (
         <GameItem id="origens" title="Origens" synopses="origensSynopsis" description="origensDescription" store="itch"

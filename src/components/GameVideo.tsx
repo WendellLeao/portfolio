@@ -1,4 +1,4 @@
-import ReactPlayer from "react-player/dailymotion";
+import ReactPlayer from "react-player";
 import './GameVideo.css';
 
 interface Props {
@@ -14,15 +14,10 @@ const GameVideo = ({ videoUrl, onStart }: Props) => {
                 url={videoUrl}
                 width="100%"
                 height="100%"
-                playing={false}
+                playing={true}
                 muted={true}
                 loop={true}
                 controls={false}
-                playsinline={true}
-                fallback={<h1>Loading...</h1>}
-                config={{
-                    params: { related: 0 }
-                }}
                 onStart={onStart}
             />
         </div>
