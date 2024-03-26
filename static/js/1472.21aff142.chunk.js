@@ -1,2 +1,0 @@
-"use strict";(globalThis.webpackChunkportfolio=globalThis.webpackChunkportfolio||[]).push([[1472],{4655:(i,p,t)=>{t.r(p),t.d(p,{default:()=>l});var s=t(9795);const e=t.p+"static/media/jump-up-image.31eb5a61b01127d55bf6.png";var o=t(579);const l=()=>(0,o.jsx)(s.A,{id:"jump",title:"Jump Up 2",synopses:"jumpSynopsis",description:"jumpDescription",store:"itch",side:"left",url:"https://wendell-leao.itch.io/jump-up-2",videoUrl:"https://dai.ly/k2EGsa1Ftv41d8Ak9Fi",imageUrl:e})}}]);
-//# sourceMappingURL=1472.21aff142.chunk.js.map

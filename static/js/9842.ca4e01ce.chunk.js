@@ -1,2 +1,0 @@
-"use strict";(globalThis.webpackChunkportfolio=globalThis.webpackChunkportfolio||[]).push([[9842],{7142:(o,t,i)=>{i.r(t),i.d(t,{default:()=>r});var e=i(9795);const s=i.p+"static/media/top-down-shooter-image.8bca95cde08b950886d5.png";var p=i(579);const r=()=>(0,p.jsx)(e.A,{id:"topDownShooter",title:"Top Down Shooter",synopses:"topDownShooterSynopsis",description:"topDownShooterDescription",store:"itch",side:"right",url:"",videoUrl:"https://dai.ly/k2Mf45apgm0g86Ak9Fc",imageUrl:s})}}]);
-//# sourceMappingURL=9842.ca4e01ce.chunk.js.map

@@ -1,2 +1,0 @@
-"use strict";(globalThis.webpackChunkportfolio=globalThis.webpackChunkportfolio||[]).push([[7050],{2156:(i,s,e)=>{e.r(s),e.d(s,{default:()=>a});var o=e(9795);const t=e.p+"static/media/origens-image.6ef43286aa9eb84f1750.png";var r=e(579);const a=()=>(0,r.jsx)(o.A,{id:"origens",title:"Origens",synopses:"origensSynopsis",description:"origensDescription",store:"itch",side:"right",url:"https://wendell-leao.itch.io/origens",videoUrl:"https://dai.ly/k6Dahmu0Mm23mZAk9Fk",imageUrl:t})}}]);
-//# sourceMappingURL=7050.72a9afd8.chunk.js.map

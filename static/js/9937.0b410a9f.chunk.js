@@ -1,2 +1,0 @@
-"use strict";(globalThis.webpackChunkportfolio=globalThis.webpackChunkportfolio||[]).push([[9937],{6098:(o,t,e)=>{e.r(t),e.d(t,{default:()=>h});var r=e(9795);const i=e.p+"static/media/overthrow-image.e1f643ad305f59de4f1a.png";var s=e(579);const h=()=>(0,s.jsx)(r.A,{id:"overthrow",title:"Overthrow 2",synopses:"overthrowSynopsis",description:"overthrowDescription",store:"itch",side:"left",url:"https://wendell-leao.itch.io/overthrow-2",videoUrl:"https://dai.ly/k38JKVhPcAt9OyAk9Fe",imageUrl:i})}}]);
-//# sourceMappingURL=9937.0b410a9f.chunk.js.map
