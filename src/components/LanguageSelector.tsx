@@ -1,3 +1,4 @@
+import {useEffect} from "react";
 import {useTranslation} from 'react-i18next';
 import usaImage from '../images/usa.png';
 import brazilImage from '../images/brazil.png';
@@ -5,6 +6,10 @@ import './LanguagesSelector.css';
 
 const LanguageSelector = () => {
     const { t, i18n } = useTranslation();
+
+    useEffect(() => {
+        HandleButtonActive(i18n.language);
+    }, []);
     
     function HandleClick(language: string): void {
         i18n.changeLanguage(language);
