@@ -8,7 +8,7 @@ import './App.css';
 function App() : JSX.Element {
   return (
       <div>
-        <BackgroundParticles />
+          <BackgroundParticles />
           <Header />
           <Home />
           <Games />

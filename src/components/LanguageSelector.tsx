@@ -1,6 +1,4 @@
 import {useTranslation} from 'react-i18next';
-import {useEffect} from 'react';
-// import {SaveSelectedLanguage} from '../i18n';
 import usaImage from '../images/usa.png';
 import brazilImage from '../images/brazil.png';
 import './LanguagesSelector.css';
@@ -8,15 +6,9 @@ import './LanguagesSelector.css';
 const LanguageSelector = () => {
     const { t, i18n } = useTranslation();
     
-    useEffect(() : void => {
-        SetCurrentLanguageButtonActive(i18n.language);
-    }, []);
-
     function HandleClick(language: string): void {
         i18n.changeLanguage(language);
 
-        // SaveSelectedLanguage(language);
-        
         HandleButtonActive(language);
     }
 
