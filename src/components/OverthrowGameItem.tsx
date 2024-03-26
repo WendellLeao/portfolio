@@ -1,7 +1,7 @@
 import GameItem from "./GameItem";
 import overthrowImageUrl from '../images/overthrow-image.png';
 
-const OverthowGameItem = () => {
+const OverthrowGameItem = () => {
     const overthrowUrl: string = "https://wendell-leao.itch.io/overthrow-2";
     const overthrowVideoUrl: string = "https://dai.ly/k38JKVhPcAt9OyAk9Fe";
     
@@ -11,4 +11,4 @@ const OverthowGameItem = () => {
     )
 }
 
-export default OverthowGameItem;
+export default OverthrowGameItem;
