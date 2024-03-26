@@ -1,0 +1,2 @@
+"use strict";(globalThis.webpackChunkportfolio=globalThis.webpackChunkportfolio||[]).push([[5812],{5812:(e,a,t)=>{async function n(e,a=!0){if(!e.emitterShapeManager){const{ShapeManager:a}=await t.e(4538).then(t.bind(t,4538));e.emitterShapeManager=new a(e)}e.addEmitterShapeGenerator||(e.addEmitterShapeGenerator=(a,t)=>{e.emitterShapeManager?.addShapeGenerator(a,t)});const{EmittersPlugin:n}=await t.e(8618).then(t.bind(t,8618)),i=new n(e);await e.addPlugin(i,a)}t.d(a,{loadEmittersPlugin:()=>n})}}]);
+//# sourceMappingURL=5812.f050692c.chunk.js.map
