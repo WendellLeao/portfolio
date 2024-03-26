@@ -1,5 +1,6 @@
 import GameItem from "./GameItem";
-import topDownShooterImageUrl from '../images/top-down-shooter-image.png';
+import imageUrl from '../images/top-down-shooter-image.png';
+import gifUrl from '../gifs/top-down-shooter.gif';
 
 const TopDownShooterGameItem = () => {
     const topDownShooterUrl: string = "";
@@ -7,7 +8,7 @@ const TopDownShooterGameItem = () => {
     
     return (
         <GameItem id="topDownShooter" title="Top Down Shooter" synopses="topDownShooterSynopsis" description="topDownShooterDescription" store="itch"
-                  side="right" url={topDownShooterUrl} videoUrl={topDownShooterVideoUrl} imageUrl={topDownShooterImageUrl} />
+                  side="right" url={topDownShooterUrl} videoUrl={topDownShooterVideoUrl} imageUrl={imageUrl} gifUrl={gifUrl} />
     )
 }
 

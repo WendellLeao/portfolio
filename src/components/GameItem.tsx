@@ -1,10 +1,9 @@
-import { RefObject, useRef } from 'react';
+import {RefObject, useRef, useState} from 'react';
 import GameVideo from './GameVideo';
 import GameDescription from './GameDescription';
 import GameSideMenu from './GameSideMenu';
 import useOnScreen from "./Utils";
 import './GameItem.css';
-import {log} from "util";
 
 interface Props {
     id: string;
@@ -15,11 +14,12 @@ interface Props {
     url?: string;
     videoUrl: string;
     imageUrl: string;
+    gifUrl: string;
     side: "right" | "left";
     shadow?: "top" | "bottom"
 }
 
-const GameItem = ({id, title, synopses, description, store = "itch", url = "", videoUrl, imageUrl, side, shadow}: Props) => {
+const GameItem = ({id, title, synopses, description, store = "itch", url = "", videoUrl, gifUrl, imageUrl, side, shadow}: Props) => {
     const mediaRef : RefObject<HTMLDivElement> = useRef<HTMLDivElement>(null)
     const gameImageRef: RefObject<HTMLImageElement> = useRef<HTMLImageElement>(null);
 
@@ -30,6 +30,8 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
 
     const mediaQueryList : MediaQueryList = window.matchMedia("(min-width: 45em)");
 
+    const [mediaQuery, SetMediaQuery] = useState(mediaQueryList.matches);
+
     mediaQueryList.addEventListener("change", function() : void {
         if (mediaQueryList.matches) {
             ShowGameDescription();
@@ -37,6 +39,8 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
         else {
             ShowGameSideMenu();
         }
+        
+        SetMediaQuery(mediaQueryList.matches);
     });
 
     function HandleVideoStarted() : void {
@@ -54,18 +58,19 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
     }
 
     function GetMediaElement() : JSX.Element {
-        if (mediaRef.current && mediaIsVisible) {
+        const gameImage : JSX.Element = <img ref={gameImageRef} src={mediaQuery ? imageUrl : gifUrl} alt="game image" />;
+
+        if (mediaQuery && mediaRef.current && mediaIsVisible) {
             return (
                 <>
-                    <img ref={gameImageRef} src={imageUrl} alt="game image" />
+                    {gameImage}
                     <GameVideo videoUrl={videoUrl} onStart={HandleVideoStarted} />
                 </>
             )
         }
-        
-        SetDisplay(gameImageRef.current, "flex")
 
-        return <img ref={gameImageRef} src={imageUrl} alt="game image" />
+        SetDisplay(gameImageRef.current, "flex")
+        return gameImage;
     }
 
     function GetClassName() : string {

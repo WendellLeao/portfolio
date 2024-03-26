@@ -1,5 +1,6 @@
 import GameItem from "./GameItem";
-import funkinFighterImageUrl from '../images/funkin-fighter-image.png';
+import imageUrl from '../images/funkin-fighter-image.png';
+import gifUrl from '../gifs/funkin-fighter.gif';
 
 const FunkinFighterGameItem = () => {
     const funkinFighterUrl: string = "";
@@ -7,7 +8,7 @@ const FunkinFighterGameItem = () => {
     
     return (
         <GameItem id="funkinFighter" title="Funkin' Fighter" synopses="funkinFighterSynopsis" description="funkinFighterDescription" store="itch"
-                  side="right" url={funkinFighterUrl} videoUrl={funkinFighterVideoUrl} imageUrl={funkinFighterImageUrl} />
+                  side="right" url={funkinFighterUrl} videoUrl={funkinFighterVideoUrl} imageUrl={imageUrl} gifUrl={gifUrl} />
     )
 }
 

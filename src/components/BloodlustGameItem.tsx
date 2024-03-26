@@ -1,5 +1,6 @@
 import GameItem from "./GameItem";
-import bloodlustImageUrl from '../images/bloodlust-image.png';
+import imageUrl from '../images/bloodlust-image.png';
+import gifUrl from '../gifs/bloodlust.gif';
 
 const BloodlustGameItem = () => {
     const bloodlustUrl: string = "https://alyson-morais.itch.io/bloodlust";
@@ -7,7 +8,7 @@ const BloodlustGameItem = () => {
     
     return (
         <GameItem id="bloodlust" title="Bloodlust" synopses="bloodlustSynopsis" description="bloodlustDescription" store="itch"
-                  side="left" url={bloodlustUrl} videoUrl={bloodlustVideoUrl} imageUrl={bloodlustImageUrl} />
+                  side="left" url={bloodlustUrl} videoUrl={bloodlustVideoUrl} imageUrl={imageUrl} gifUrl={gifUrl} />
     )
 }
 
