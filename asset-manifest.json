@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1295584a.css",
-    "main.js": "/static/js/main.5a123446.js",
+    "main.css": "/static/css/main.6769685a.css",
+    "main.js": "/static/js/main.5cf0aaa4.js",
     "static/js/927.bc19538d.chunk.js": "/static/js/927.bc19538d.chunk.js",
     "static/js/376.4056812c.chunk.js": "/static/js/376.4056812c.chunk.js",
     "static/js/93.d850cdef.chunk.js": "/static/js/93.d850cdef.chunk.js",
@@ -30,7 +30,17 @@
     "static/js/644.2f49944b.chunk.js": "/static/js/644.2f49944b.chunk.js",
     "static/js/646.6fb9b384.chunk.js": "/static/js/646.6fb9b384.chunk.js",
     "static/js/494.d6eae116.chunk.js": "/static/js/494.d6eae116.chunk.js",
+    "static/media/rogue-image.png": "/static/media/rogue-image.6e6275386217eba7cf98.png",
+    "static/media/arrow-image.png": "/static/media/arrow-image.501e072da7376ef35a13.png",
+    "static/media/overthrow-image.png": "/static/media/overthrow-image.e1f643ad305f59de4f1a.png",
     "static/media/profile.png": "/static/media/profile.2b02e84e3a1e139bcd77.png",
+    "static/media/fruits-image.png": "/static/media/fruits-image.2a3ed0764d0b659ab122.png",
+    "static/media/bloodlust-image.png": "/static/media/bloodlust-image.7f0539ed25a94be7996e.png",
+    "static/media/horror-image.png": "/static/media/horror-image.fde96b4b22de7cdbbbd7.png",
+    "static/media/top-down-shooter-image.png": "/static/media/top-down-shooter-image.8bca95cde08b950886d5.png",
+    "static/media/origens-image.png": "/static/media/origens-image.6ef43286aa9eb84f1750.png",
+    "static/media/funkin-fighter-image.png": "/static/media/funkin-fighter-image.48b16219b710eb634b7c.png",
+    "static/media/jump-up-image.png": "/static/media/jump-up-image.31eb5a61b01127d55bf6.png",
     "static/media/steam.png": "/static/media/steam.4ea0d3cdd4354738bce3.png",
     "static/media/itchio.png": "/static/media/itchio.508055b2c82d7e1e50de.png",
     "static/media/github.png": "/static/media/github.9b597ea81729ad61da5d.png",
@@ -40,8 +50,8 @@
     "static/media/menu.png": "/static/media/menu.ba2050386f0b418b15ea.png",
     "static/media/menu-active.png": "/static/media/menu-active.561254554508684ee540.png",
     "index.html": "/index.html",
-    "main.1295584a.css.map": "/static/css/main.1295584a.css.map",
-    "main.5a123446.js.map": "/static/js/main.5a123446.js.map",
+    "main.6769685a.css.map": "/static/css/main.6769685a.css.map",
+    "main.5cf0aaa4.js.map": "/static/js/main.5cf0aaa4.js.map",
     "927.bc19538d.chunk.js.map": "/static/js/927.bc19538d.chunk.js.map",
     "376.4056812c.chunk.js.map": "/static/js/376.4056812c.chunk.js.map",
     "93.d850cdef.chunk.js.map": "/static/js/93.d850cdef.chunk.js.map",
@@ -72,7 +82,7 @@
     "494.d6eae116.chunk.js.map": "/static/js/494.d6eae116.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1295584a.css",
-    "static/js/main.5a123446.js"
+    "static/css/main.6769685a.css",
+    "static/js/main.5cf0aaa4.js"
   ]
 }
