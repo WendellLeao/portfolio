@@ -6,7 +6,7 @@ import {
 } from "@tsparticles/engine";
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import { loadSlim } from "@tsparticles/slim";
+// import { loadSlim } from "@tsparticles/slim";
 import './BackgroundParticles.css';
 
 const BackgroundParticles = () => {
@@ -14,7 +14,7 @@ const BackgroundParticles = () => {
 
     useEffect(() => {
         initParticlesEngine(async (engine) => {
-            await loadSlim(engine);
+            // await loadSlim(engine);
         }).then(() => {
             setInit(true);
         });
