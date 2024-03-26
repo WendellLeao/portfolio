@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6769685a.css",
-    "main.js": "/static/js/main.5cf0aaa4.js",
+    "main.js": "/static/js/main.0db2b19c.js",
     "static/js/927.bc19538d.chunk.js": "/static/js/927.bc19538d.chunk.js",
     "static/js/376.4056812c.chunk.js": "/static/js/376.4056812c.chunk.js",
     "static/js/93.d850cdef.chunk.js": "/static/js/93.d850cdef.chunk.js",
@@ -30,12 +30,22 @@
     "static/js/644.2f49944b.chunk.js": "/static/js/644.2f49944b.chunk.js",
     "static/js/646.6fb9b384.chunk.js": "/static/js/646.6fb9b384.chunk.js",
     "static/js/494.d6eae116.chunk.js": "/static/js/494.d6eae116.chunk.js",
+    "static/media/rogue.gif": "/static/media/rogue.b1b6a9c71410b7242146.gif",
+    "static/media/arrow.gif": "/static/media/arrow.c9878c2bbe86ae330f42.gif",
+    "static/media/overthrow.gif": "/static/media/overthrow.84d5295f974f3c2bd9ce.gif",
+    "static/media/horror.gif": "/static/media/horror.e5f465905ff32fb6c6e2.gif",
+    "static/media/fruits.gif": "/static/media/fruits.b4bb19de139b3c444aea.gif",
     "static/media/rogue-image.png": "/static/media/rogue-image.6e6275386217eba7cf98.png",
+    "static/media/funkin-fighter.gif": "/static/media/funkin-fighter.af03af7dfde106518038.gif",
+    "static/media/origens.gif": "/static/media/origens.3c246aee58c559770b61.gif",
     "static/media/arrow-image.png": "/static/media/arrow-image.501e072da7376ef35a13.png",
     "static/media/overthrow-image.png": "/static/media/overthrow-image.e1f643ad305f59de4f1a.png",
+    "static/media/bloodlust.gif": "/static/media/bloodlust.457a9c7ca418a816c395.gif",
     "static/media/profile.png": "/static/media/profile.2b02e84e3a1e139bcd77.png",
     "static/media/fruits-image.png": "/static/media/fruits-image.2a3ed0764d0b659ab122.png",
+    "static/media/jump-up-2.gif": "/static/media/jump-up-2.1d9b8fa16f6c89c61e65.gif",
     "static/media/bloodlust-image.png": "/static/media/bloodlust-image.7f0539ed25a94be7996e.png",
+    "static/media/top-down-shooter.gif": "/static/media/top-down-shooter.500bf48e089d97910193.gif",
     "static/media/horror-image.png": "/static/media/horror-image.fde96b4b22de7cdbbbd7.png",
     "static/media/top-down-shooter-image.png": "/static/media/top-down-shooter-image.8bca95cde08b950886d5.png",
     "static/media/origens-image.png": "/static/media/origens-image.6ef43286aa9eb84f1750.png",
@@ -51,7 +61,7 @@
     "static/media/menu-active.png": "/static/media/menu-active.561254554508684ee540.png",
     "index.html": "/index.html",
     "main.6769685a.css.map": "/static/css/main.6769685a.css.map",
-    "main.5cf0aaa4.js.map": "/static/js/main.5cf0aaa4.js.map",
+    "main.0db2b19c.js.map": "/static/js/main.0db2b19c.js.map",
     "927.bc19538d.chunk.js.map": "/static/js/927.bc19538d.chunk.js.map",
     "376.4056812c.chunk.js.map": "/static/js/376.4056812c.chunk.js.map",
     "93.d850cdef.chunk.js.map": "/static/js/93.d850cdef.chunk.js.map",
@@ -83,6 +93,6 @@
   },
   "entrypoints": [
     "static/css/main.6769685a.css",
-    "static/js/main.5cf0aaa4.js"
+    "static/js/main.0db2b19c.js"
   ]
 }
