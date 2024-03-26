@@ -1,13 +1,11 @@
 import {
-    clamp,
     type Container,
     type ISourceOptions,
-    randomInRange,
 } from "@tsparticles/engine";
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import './BackgroundParticles.css';
 import {loadFull} from "tsparticles";
+import './BackgroundParticles.css';
 
 const BackgroundParticles = () => {
     const [init, setInit] = useState(false);
@@ -45,7 +43,7 @@ const BackgroundParticles = () => {
                     color: "#0b364b",
                     distance: 150,
                     enable: true,
-                    opacity: clamp(randomInRange(0.5), 0.2, 0.5),
+                    opacity: 0.5,
                     width: 1,
                 },
                 move: {
@@ -61,7 +59,7 @@ const BackgroundParticles = () => {
                     value: 150,
                 },
                 opacity: {
-                    value: { min: 0.15, max: 0.5 },
+                    value: { min: 0.2, max: 0.5 },
                     animation: {
                         enable: true,
                         speed: 0.2,
