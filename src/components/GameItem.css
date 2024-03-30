@@ -22,20 +22,18 @@
     display: none;
 }
 
-.gameImageContainer {
-}
-
-.gameImageContainer img {
-    width: 100%;
-    height: 100%;
-}
-
 .videoContainer {
     width: 100%;
     height: 100%;
     pointer-events: none;
     -webkit-mask-image: url("../images/white-square.png");
     mask-image: url("../images/white-square.png");
+}
+
+.videoContainer img {
+    width: 100%;
+    height: 150%;
+    transform: translateY(-13%);
 }
 
 @media (max-width: 60em) {

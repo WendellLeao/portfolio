@@ -20,6 +20,8 @@ interface Props {
 }
 
 const GameItem = ({id, title, synopses, description, store = "itch", url = "", videoUrl, gifUrl, imageUrl, side, shadow}: Props) => {
+    const [videoHasStarted, SetVideoHasStarted] = useState(false);
+    
     const mediaRef : RefObject<HTMLDivElement> = useRef<HTMLDivElement>(null)
     const gameImageRef : RefObject<HTMLImageElement> = useRef<HTMLImageElement>(null)
 
@@ -38,12 +40,6 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
             ShowGameSideMenu();
         }
     });
-
-    const [videoHasStarted, SetVideoHasStarted] = useState(false);
-    
-    function HandleVideoStarted() : void {
-        SetVideoHasStarted(true);
-    }
     
     function ShowGameDescription() : void {
         SetDisplay(gameDescriptionRef.current, "flex")
@@ -64,16 +60,12 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
 
         SetDisplay(gameImageRef.current, !videoHasStarted ? "flex" : "none")
         
-        if (mediaIsVisible) {
+        if (mediaIsVisible || videoHasStarted) {
             return (
-                <>
-                    <div className="gameImageContainer">
-                        {imageElement}
-                    </div>
-                    <div className="videoContainer">
-                        <GameVideo videoUrl={videoUrl} onStart={HandleVideoStarted} />
-                    </div>
-                </>
+                <div className="videoContainer">
+                    {imageElement}
+                    <GameVideo videoUrl={videoUrl} onStart={() => SetVideoHasStarted(true)} />
+                </div>
             )
         }
 
