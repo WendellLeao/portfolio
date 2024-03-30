@@ -1,95 +1,78 @@
-import {
-    type Container,
-    type ISourceOptions,
-} from "@tsparticles/engine";
-import { useEffect, useMemo, useState } from "react";
-import Particles, { initParticlesEngine } from "@tsparticles/react";
-import './BackgroundParticles.css';
-import {loadBasic} from "@tsparticles/basic";
+import { useCallback } from "react";
+import Particles from "react-tsparticles";
+import type { Container, Engine } from "tsparticles-engine";
+import { loadSlim } from "tsparticles-slim";
 
 const BackgroundParticles = () => {
-    const [init, setInit] = useState(false);
-
-    useEffect(() => {
-        initParticlesEngine(async (engine) => {
-            await loadBasic(engine);
-        }).then(() => {
-            setInit(true);
-        });
+    const particlesInit = useCallback(async (engine: Engine) => {
+        console.log(engine);
+        await loadSlim(engine);
     }, []);
 
-    const particlesLoaded = async (container?: Container): Promise<void> => {
-    };
+    const particlesLoaded = useCallback(async (container: Container | undefined) => {
+        await console.log(container);
+    }, []);
 
-    const options: ISourceOptions = useMemo(
-        () => ({
-            fullScreen: {
-                enable: true,
-                zIndex: -1,
-            },
-            background: {
-                color: {
-                    value: "#050505FF",
-                },
-                repeat: "no-repeat",
-                size: "cover",
-            },
-            fpsLimit: 60,
-            particles: {
-                color: {
-                    value: "#0b364b",
-                },
-                links: {
-                    color: "#0b364b",
-                    distance: 150,
+    return (
+        <Particles
+            id="tsparticles"
+            init={particlesInit}
+            loaded={particlesLoaded}
+            options={{
+                fullScreen: {
                     enable: true,
-                    opacity: 0.5,
-                    width: 1,
+                    zIndex: -1,
                 },
-                move: {
-                    enable: true,
-                    random: false,
-                    speed: 0.1,
-                    straight: false,
-                },
-                number: {
-                    density: {
-                        enable: true,
+                background: {
+                    color: {
+                        value: "#050505FF",
                     },
-                    value: 150,
+                    repeat: "no-repeat",
+                    size: "cover",
                 },
-                opacity: {
-                    value: { min: 0.2, max: 0.5 },
-                    animation: {
+                fpsLimit: 60,
+                particles: {
+                    color: {
+                        value: "#0b364b",
+                    },
+                    links: {
+                        color: "#0b364b",
+                        distance: 150,
                         enable: true,
-                        speed: 0.2,
-                        startValue: "min",
-                    }
+                        opacity: 0.5,
+                        width: 1,
+                    },
+                    move: {
+                        enable: true,
+                        random: false,
+                        speed: 0.1,
+                        straight: false,
+                    },
+                    number: {
+                        density: {
+                            enable: true,
+                        },
+                        value: 150,
+                    },
+                    opacity: {
+                        value: { min: 0.2, max: 0.5 },
+                        animation: {
+                            enable: true,
+                            speed: 0.2,
+                            startValue: "min",
+                        }
+                    },
+                    shape: {
+                        type: "circle",
+                    },
+                    size: {
+                        value: { min: 1, max: 6.5 },
+                    },
                 },
-                shape: {
-                    type: "circle",
-                },
-                size: {
-                    value: { min: 1, max: 6.5 },
-                },
-            },
-            detectRetina: false,
-        }),
-        [],
-    );
-
-    if (init) {
-        return (
-            <Particles
-                id="tsparticles"
-                className="particles"
-                particlesLoaded={particlesLoaded}
-                options={options}
-            />
-        );
-    }
-
-    return <></>;
+                detectRetina: false,
+            }}
+        />
+    )
 }
 
 export default BackgroundParticles;
