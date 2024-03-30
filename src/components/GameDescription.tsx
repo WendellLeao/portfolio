@@ -17,28 +17,30 @@ interface Props {
 const GameDescription = ({name, synopses, description, store, url, onCloseButtonClick} : Props) => {
     const { t, i18n } = useTranslation();
     
+    const delay : number = 0.2;
+    
     return (
-        <Reveal>
+        <Reveal delay={delay}>
             <div className="gameDescriptionContainer">
-                <Reveal>
+                <Reveal delay={delay}>
                     <h1>
                         {name}
                         <div className="gameDescriptionLine"></div>
                     </h1>
                 </Reveal>
-                <Reveal>
+                <Reveal delay={delay}>
                     <em>
                         <p className="synopses">
                             {t(synopses)}
                         </p>
                     </em>
                 </Reveal>
-                <Reveal>
+                <Reveal delay={delay}>
                     <p className="description">
                         {t(description)}
                     </p>
                 </Reveal>
-                <Reveal>
+                <Reveal delay={delay}>
                     <GameButton store={store} url={url} />
                 </Reveal>
                 <a className="closeButton" onClick={onCloseButtonClick}>

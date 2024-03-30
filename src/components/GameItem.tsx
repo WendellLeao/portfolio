@@ -1,8 +1,9 @@
-import {RefObject, useRef, useState} from 'react';
+import React, {RefObject, useRef, useState} from 'react';
 import GameVideo from './GameVideo';
 import GameDescription from './GameDescription';
 import GameSideMenu from './GameSideMenu';
 import useOnScreen from "./Utils";
+import {GameItemReveal} from "./GameItemReveal";
 import './GameItem.css';
 
 interface Props {
@@ -89,23 +90,25 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
     }
     
     return (
-        <div className={GetClassName()}>
-            <div ref={mediaRef} className="mediaContainer">
-                <img className="gameGif" src={gifUrl} alt="game gif" />
-                {GetVideoElement()}
+        <GameItemReveal>
+            <div className={GetClassName()}>
+                <div ref={mediaRef} className="mediaContainer">
+                    <img className="gameGif" src={gifUrl} alt="game gif" />
+                    {GetVideoElement()}
+                </div>
+                <div ref={gameDescriptionRef} id="gameDescription" className={side}>
+                    <GameDescription name={title}
+                                     synopses={synopses}
+                                     description={description}
+                                     store={store}
+                                     url={url}
+                                     onCloseButtonClick={ShowGameSideMenu}/>
+                </div>
+                <div ref={gameSideMenuRef} id="gameSideMenu" className={side}>
+                    <GameSideMenu title={title} onInfoClick={ShowGameDescription} />
+                </div>
             </div>
-            <div ref={gameDescriptionRef} id="gameDescription" className={side}>
-                <GameDescription name={title}
-                                 synopses={synopses}
-                                 description={description}
-                                 store={store}
-                                 url={url}
-                                 onCloseButtonClick={ShowGameSideMenu}/>
-            </div>
-            <div ref={gameSideMenuRef} id="gameSideMenu" className={side}>
-                <GameSideMenu title={title} onInfoClick={ShowGameDescription} />
-            </div>
-        </div>
+        </GameItemReveal>
     )
 }
 

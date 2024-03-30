@@ -1,12 +1,11 @@
-import {motion, useInView, useAnimation, AnimationControls} from "framer-motion";
-import React, { useEffect, useRef } from "react";
+import {AnimationControls, motion, useAnimation, useInView} from "framer-motion";
+import React, {useEffect, useRef} from "react";
 
 interface Props {
     children: JSX.Element;
-    delay?: number;
 }
 
-export const Reveal = ({ children, delay }: Props) => {
+export const GameItemReveal = ({ children }: Props) => {
     const ref : React.MutableRefObject<null> = useRef(null);
     const isInView : boolean = useInView(ref, { once: true });
 
@@ -22,12 +21,12 @@ export const Reveal = ({ children, delay }: Props) => {
         <motion.div
             ref={ref}
             variants={{
-                hidden: { opacity: 0, y: 75 },
-                visible: { opacity: 1, y: 0 },
+                hidden: { opacity: 0, scale: 0.8 },
+                visible: { opacity: 1, scale: 1 },
             }}
             initial="hidden"
             animate={mainControls}
-            transition={{ duration: 0.7, delay: delay }}>
+            transition={{ duration: 0.9, delay: 0 }}>
             {children}
         </motion.div>
     )
