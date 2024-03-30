@@ -1,4 +1,5 @@
 import {lazy, Suspense} from "react";
+import Loading from "./components/Loading";
 import './App.css';
 
 const BackgroundParticles = lazy(() => import("./components/BackgroundParticles"));
@@ -10,7 +11,7 @@ const Footer = lazy(() => import("./components/Footer"));
 function App() : JSX.Element {
   return (
       <div>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<Loading />}>
               <BackgroundParticles />
               <Header />
               <Home />

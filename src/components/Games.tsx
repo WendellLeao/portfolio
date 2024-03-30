@@ -1,4 +1,5 @@
 import {lazy, Suspense} from "react";
+import Loading from "./Loading";
 import './Games.css';
 
 const RogueGameItem = lazy(() => import("./RogueGameItem"));
@@ -15,7 +16,7 @@ const JumpGameItem = lazy(() => import("./JumpGameItem"));
 const Games = () => {
     return (
         <div className="games" id="games">
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={<Loading />}>
                 <RogueGameItem />
                 <HorrorGameItem />
                 <OrigensGameItem />
