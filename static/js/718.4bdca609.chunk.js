@@ -1,0 +1,2 @@
+"use strict";(globalThis.webpackChunkportfolio=globalThis.webpackChunkportfolio||[]).push([[718],{2756:(r,o,e)=>{e.r(o),e.d(o,{default:()=>d});var i=e(6955);const s=e.p+"static/media/horror-image.fde96b4b22de7cdbbbd7.png",t=e.p+"static/media/horror.e5f465905ff32fb6c6e2.gif";var a=e(579);const d=()=>(0,a.jsx)(i.A,{id:"horror",title:"Where Are You?",synopses:"horrorSynopsis",description:"horrorDescription",store:"steam",side:"left",url:"",videoUrl:"videos/horror.mp4",imageUrl:s,gifUrl:t})}}]);
+//# sourceMappingURL=718.4bdca609.chunk.js.map
