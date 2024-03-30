@@ -1,18 +1,22 @@
-import BackgroundParticles from "./components/BackgroundParticles";
-import Header from "./components/Header";
-import Home from "./components/Home";
-import Games from "./components/Games";
-import Footer from "./components/Footer";
+import {lazy, Suspense} from "react";
 import './App.css';
+
+const BackgroundParticles = lazy(() => import("./components/BackgroundParticles"));
+const Header = lazy(() => import("./components/Header"));
+const Home = lazy(() => import("./components/Home"));
+const Games = lazy(() => import("./components/Games"));
+const Footer = lazy(() => import("./components/Footer"));
 
 function App() : JSX.Element {
   return (
       <div>
-          <BackgroundParticles />
-          <Header />
-          <Home />
-          <Games />
-          <Footer />
+          <Suspense fallback={<div>Loading...</div>}>
+              <BackgroundParticles />
+              <Header />
+              <Home />
+              <Games />
+              <Footer />
+          </Suspense>
       </div>
   )
 }

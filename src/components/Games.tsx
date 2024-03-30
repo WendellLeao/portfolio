@@ -1,28 +1,32 @@
-import RogueGameItem from "./RogueGameItem";
-import HorrorGameItem from "./HorrorGameItem";
-import OrigensGameItem from "./OrigensGameItem";
-import ArrowGameItem from "./ArrowGameItem";
-import TopDownShooterGameItem from "./TopDownShooterGameItem";
-import OverthrowGameItem from "./OverthrowGameItem";
-import FruitsGameItem from "./FruitsGameItem";
-import BloodlustGameItem from "./BloodlustGameItem";
-import FunkinFighterGameItem from "./FunkinFighterGameItem";
-import JumpGameItem from "./JumpGameItem";
+import {lazy, Suspense} from "react";
 import './Games.css';
+
+const RogueGameItem = lazy(() => import("./RogueGameItem"));
+const HorrorGameItem = lazy(() => import("./HorrorGameItem"));
+const OrigensGameItem = lazy(() => import("./OrigensGameItem"));
+const ArrowGameItem = lazy(() => import("./ArrowGameItem"));
+const TopDownShooterGameItem = lazy(() => import("./TopDownShooterGameItem"));
+const OverthrowGameItem = lazy(() => import("./OverthrowGameItem"));
+const FruitsGameItem = lazy(() => import("./FruitsGameItem"));
+const BloodlustGameItem = lazy(() => import("./BloodlustGameItem"));
+const FunkinFighterGameItem = lazy(() => import("./FunkinFighterGameItem"));
+const JumpGameItem = lazy(() => import("./JumpGameItem"));
 
 const Games = () => {
     return (
         <div className="games" id="games">
-            <RogueGameItem />
-            <HorrorGameItem />
-            <OrigensGameItem />
-            <ArrowGameItem />
-            <TopDownShooterGameItem />
-            <OverthrowGameItem />
-            <FruitsGameItem />
-            <BloodlustGameItem />
-            <FunkinFighterGameItem />
-            <JumpGameItem />
+            <Suspense fallback={<div>Loading...</div>}>
+                <RogueGameItem />
+                <HorrorGameItem />
+                <OrigensGameItem />
+                <ArrowGameItem />
+                <TopDownShooterGameItem />
+                <OverthrowGameItem />
+                <FruitsGameItem />
+                <BloodlustGameItem />
+                <FunkinFighterGameItem />
+                <JumpGameItem />
+            </Suspense>
         </div>
     )
 }
