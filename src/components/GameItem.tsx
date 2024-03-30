@@ -56,16 +56,20 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
     }
 
     function GetVideoElement() : JSX.Element {
-        const imageElement : JSX.Element = <img ref={gameImageRef} className="gameImage" src={imageUrl} alt="game image" />;
+        const imageElement : JSX.Element = <img ref={gameImageRef} src={imageUrl} alt="game image" />;
         
         if (!mediaQueryList.matches) {
             return <></>
         }
+
+        SetDisplay(gameImageRef.current, !videoHasStarted ? "flex" : "none")
         
         if (mediaIsVisible) {
             return (
                 <>
-                    {!videoHasStarted ? imageElement : <></>}
+                    <div className="gameImageContainer">
+                        {imageElement}
+                    </div>
                     <div className="videoContainer">
                         <GameVideo videoUrl={videoUrl} onStart={HandleVideoStarted} />
                     </div>
