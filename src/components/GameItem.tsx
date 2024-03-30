@@ -1,4 +1,4 @@
-import {RefObject, useRef, useState} from 'react';
+import {RefObject, useRef} from 'react';
 import GameVideo from './GameVideo';
 import GameDescription from './GameDescription';
 import GameSideMenu from './GameSideMenu';
@@ -21,7 +21,6 @@ interface Props {
 
 const GameItem = ({id, title, synopses, description, store = "itch", url = "", videoUrl, gifUrl, imageUrl, side, shadow}: Props) => {
     const mediaRef : RefObject<HTMLDivElement> = useRef<HTMLDivElement>(null)
-    const gameVideoRef: RefObject<HTMLImageElement> = useRef<HTMLImageElement>(null);
 
     const mediaIsVisible : boolean = useOnScreen(mediaRef)
     
@@ -53,15 +52,21 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
     }
 
     function GetVideoElement() : JSX.Element {
-        if (mediaIsVisible && mediaQueryList.matches) {
+        const imageElement : JSX.Element = <img src={imageUrl} alt="game image" />;
+        
+        if (!mediaQueryList.matches) {
+            return <></>
+        }
+        
+        if (mediaIsVisible) {
             return (
-                <div ref={gameVideoRef} className="videoContainer">
+                <div className="videoContainer">
                     <GameVideo videoUrl={videoUrl} onStart={HandleVideoStarted} />
                 </div>
             )
         }
 
-        return <></>
+        return imageElement;
     }
 
     function GetClassName() : string {
@@ -83,7 +88,7 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
     return (
         <div className={GetClassName()}>
             <div ref={mediaRef} className="mediaContainer">
-                <img src={gifUrl} alt="game image" />
+                <img className="gameGif" src={gifUrl} alt="game gif" />
                 {GetVideoElement()}
             </div>
             <div ref={gameDescriptionRef} id="gameDescription" className={side}>
