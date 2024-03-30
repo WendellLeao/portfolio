@@ -21,12 +21,12 @@ export const GameItemReveal = ({ children }: Props) => {
         <motion.div
             ref={ref}
             variants={{
-                hidden: { opacity: 0, scale: 0.8 },
-                visible: { opacity: 1, scale: 1 },
+                hidden: { scale: 0.85 },
+                visible: { scale: 1 },
             }}
             initial="hidden"
             animate={mainControls}
-            transition={{ duration: 0.9, delay: 0 }}>
+            transition={{ duration: 1, delay: 0 }}>
             {children}
         </motion.div>
     )

@@ -53,13 +53,15 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
     }
 
     function GetVideoElement() : JSX.Element {
-        const imageElement : JSX.Element = <img ref={gameImageRef} src={imageUrl} alt="game image" />;
-        
         if (!mediaQueryList.matches) {
             return <></>
         }
+        
+        const imageElement : JSX.Element = <img ref={gameImageRef} src={imageUrl} alt="game image" />;
 
-        SetDisplay(gameImageRef.current, !videoHasStarted ? "flex" : "none")
+        if (gameImageRef.current) {
+            gameImageRef.current.style.opacity = videoHasStarted ? "0" : "1";
+        }
         
         if (mediaIsVisible || videoHasStarted) {
             return (
