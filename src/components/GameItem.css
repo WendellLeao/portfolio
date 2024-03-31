@@ -38,9 +38,9 @@
 
 .videoContainer img {
     width: 100%;
-    height: 150%;
+    height: 100%;
     position: absolute;
-    transform: translateY(-13%);
+    object-fit: cover;
     z-index: 1;
 }
 

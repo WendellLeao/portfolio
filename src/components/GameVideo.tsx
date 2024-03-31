@@ -1,24 +1,21 @@
-import ReactPlayer from "react-player";
 import './GameVideo.css';
 
 interface Props {
     videoUrl: string;
-    onStart: () => void;
+    onPlay: () => void;
 }
 
-const GameVideo = ({ videoUrl, onStart }: Props) => {
+const GameVideo = ({ videoUrl, onPlay }: Props) => {
     return (
-        <ReactPlayer
-            className="reactPlayer"
-            url={videoUrl}
-            width="1280px"
-            height="720px"
-            playing={true}
+        <video
+            className="gameVideo"
+            controls={false}
+            autoPlay={true}
             muted={true}
             loop={true}
-            controls={false}
-            onStart={onStart}
-        />
+            onPlay={onPlay}>
+            <source src={videoUrl} type="video/mp4"/>
+        </video>
     )
 }
 

@@ -68,7 +68,7 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
             return (
                 <div className="videoContainer">
                     {imageElement}
-                    <GameVideo videoUrl={videoUrl} onStart={() => SetVideoHasStarted(true)} />
+                    <GameVideo videoUrl={videoUrl} onPlay={() => SetVideoHasStarted(true)} />
                 </div>
             )
         }
