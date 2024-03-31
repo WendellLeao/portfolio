@@ -53,7 +53,7 @@
     left: 4%;
 }
 
-@media (max-width: 60em) {
+@media (max-width: 60em) or (max-height: 45em) {
     #gameDescription em,
     #gameDescription h1,
     #gameDescription p {
@@ -74,14 +74,14 @@
     }
 }
 
-@media (min-width: 45em) {
+@media (min-width: 45em) or (max-height: 45em) {
     #gameDescription {
         bottom: 0;
         margin-bottom: 4%;
     }
 }
 
-@media (max-width: 75em) {
+@media (max-width: 75em) or (max-height: 45em) {
     #gameDescription {
         display: none;
         flex-direction: column;
