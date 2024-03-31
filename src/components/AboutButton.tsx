@@ -2,6 +2,7 @@ import {ShowAboutDescription} from './Home';
 import {ShowHomeDescription} from './Home';
 import {useTranslation} from 'react-i18next';
 import React, {useState} from 'react';
+import {motion} from "framer-motion";
 import './AboutButton.css';
 
 const AboutButton = () => {
@@ -27,9 +28,14 @@ const AboutButton = () => {
     
     return (
         <div className="aboutButton">
-            <button type="submit" onClick={HandleAboutButtonClick}>
+            <motion.button
+                type="submit"
+                onClick={HandleAboutButtonClick}
+                initial={{ scale: 0.9 }}
+                animate={{ scale: 1 }}
+                transition={{ ease: "linear", duration: 0.2 }}>
                 {t(selectedText)}
-            </button>
+            </motion.button>
         </div>
     )
 }

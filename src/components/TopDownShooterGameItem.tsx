@@ -7,7 +7,7 @@ const TopDownShooterGameItem = () => {
     const topDownShooterVideoUrl: string = "videos/top-down-shooter.mp4";
     
     return (
-        <GameItem id="topDownShooter" title="Top Down Shooter" synopses="topDownShooterSynopsis" description="topDownShooterDescription" store="itch"
+        <GameItem id="topDownShooter" title="Roguelike Shooter" synopses="topDownShooterSynopsis" description="topDownShooterDescription" store="itch"
                   side="right" url={topDownShooterUrl} videoUrl={topDownShooterVideoUrl} imageUrl={imageUrl} gifUrl={gifUrl} />
     )
 }

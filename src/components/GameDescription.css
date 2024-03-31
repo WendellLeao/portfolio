@@ -1,14 +1,13 @@
 #gameDescription {
-    min-width: 30em;
-    max-width: 33%;
+    max-width: 40%;
     position: absolute;
-    bottom: 5%;
     text-align: center;
+    bottom: 25%;
 }
 
 #gameDescription em p {
     color: rgb(171, 171, 171);
-    font-size: 16px;
+    font-size: 14px;
 }
 
 #gameDescription em,
@@ -23,12 +22,12 @@
 
 #gameDescription p {
     text-align: justify;
-    font-size: 18px;
+    font-size: 16px;
     margin: 0;
 }
 
 .gameDescriptionContainer {
-    border-bottom: 5px solid #45dbe9;
+    border-bottom: 3px solid #45dbe9;
     background-color: rgba(0, 0, 0, 0.75);
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);

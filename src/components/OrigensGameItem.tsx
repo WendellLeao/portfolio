@@ -8,7 +8,7 @@ const OrigensGameItem = () => {
     
     return (
         <GameItem id="origens" title="Origens" synopses="origensSynopsis" description="origensDescription" store="itch"
-                  side="right" url={origensUrl} videoUrl={origensVideoUrl} imageUrl={imageUrl} gifUrl={gifUrl} />
+                  side="left" url={origensUrl} videoUrl={origensVideoUrl} imageUrl={imageUrl} gifUrl={gifUrl} />
     )
 }
 

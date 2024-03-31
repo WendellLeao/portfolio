@@ -41,7 +41,7 @@
 #aboutDescription p {
     position: relative;
     clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
-    animation: .3s cubic-bezier(1,-0.01,.12,.8) 0.85s 1 reveal forwards;
+    animation: .3s cubic-bezier(1,-0.01,.12,.8) 0.6s 1 reveal forwards;
 }
 
 #homeDescription h2::after, 

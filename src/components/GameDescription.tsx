@@ -17,7 +17,7 @@ interface Props {
 const GameDescription = ({name, synopses, description, store, url, onCloseButtonClick} : Props) => {
     const { t, i18n } = useTranslation();
     
-    const delay : number = 0.35;
+    const delay : number = 0.1;
     
     return (
         <Reveal delay={delay}>

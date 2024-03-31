@@ -1,8 +1,12 @@
 .gamesItem {
     display: flex;
-    height: 80vh;
+    width: 80%;
+    height: 63vh;
     position: relative;
     overflow: hidden;
+    margin-bottom: 7em;
+    border-bottom: 6px solid #45dbe9;
+    border-radius: 20px;
 }
 
 .gamesItem h1 {
@@ -37,6 +41,16 @@
     position: absolute;
     transform: translateY(-13%);
     z-index: 1;
+}
+
+.right .gamesItem {
+    margin-left: 16%;
+    border-right: 6px solid #45dbe9;
+}
+
+.left .gamesItem {
+    margin-left: 3%;
+    border-left: 6px solid #45dbe9;
 }
 
 @media (max-width: 60em) {
