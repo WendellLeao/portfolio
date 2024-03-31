@@ -33,6 +33,7 @@
     pointer-events: none;
     -webkit-mask-image: url("../images/white-square.png");
     mask-image: url("../images/white-square.png");
+    border-radius: 15px;
 }
 
 .videoContainer img {
@@ -63,5 +64,24 @@
 
     .videoContainer {
         display: none;
+    }
+}
+
+@media (max-width: 45em) {
+    .gamesItem {
+        width: 100%;
+        margin-bottom: 0;
+        border-bottom: 0;
+        border-radius: 0;
+    }
+
+    .right .gamesItem {
+        margin-left: 0;
+        border-right: 0;
+    }
+
+    .left .gamesItem {
+        margin-left: 0;
+        border-left: 0;
     }
 }

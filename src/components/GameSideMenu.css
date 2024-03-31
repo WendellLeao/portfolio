@@ -6,7 +6,7 @@
     display: none;
 }
 
-@media (max-width: 45em) {
+@media (max-width: 75em) {
     .gamesItem #gameSideMenu h1 {
         color: white;
     }

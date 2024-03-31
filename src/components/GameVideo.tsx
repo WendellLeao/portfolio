@@ -11,8 +11,8 @@ const GameVideo = ({ videoUrl, onStart }: Props) => {
         <ReactPlayer
             className="reactPlayer"
             url={videoUrl}
-            width="100%"
-            height="100%"
+            width="1280px"
+            height="720px"
             playing={true}
             muted={true}
             loop={true}

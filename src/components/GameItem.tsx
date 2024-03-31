@@ -4,8 +4,8 @@ import GameDescription from './GameDescription';
 import GameSideMenu from './GameSideMenu';
 import useOnScreen from "./Utils";
 import {Reveal} from "./Reveal";
-import './GameItem.css';
 import {GameItemReveal} from "./GameItemReveal";
+import './GameItem.css';
 
 interface Props {
     id: string;
