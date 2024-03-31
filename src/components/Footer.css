@@ -1,15 +1,16 @@
 footer {
     width: 100%;
-    padding-top: 2em;
     align-items: center;
     text-align: center;
     justify-content: center;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 }
 
 footer h1 {
     color: #45dbe9;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 footer a {
@@ -17,7 +18,7 @@ footer a {
 }
 
 footer p {
-    padding: 0.5em 20% 1.5em 20%;
+    padding: 0.5em 30% 1.5em 30%;
 }
 
 footer button {
@@ -32,6 +33,20 @@ footer button {
 @media (max-width: 60em) {
     .footerContactsDescription {
         padding: 0 2em;
+    }
+}
+
+@media (max-width: 60em) {
+    footer {
+        margin-top: 4em;
+    }
+
+    footer h1 {
+        font-size: 30px;
+    }
+    
+    footer p {
+        padding: 0.5em 20% 1.5em 20%;
     }
 }
 

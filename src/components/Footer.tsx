@@ -3,6 +3,7 @@ import {ShowHomeDescription} from './Home';
 import {Reveal} from "./Reveal";
 import FooterContacts from './FooterContacts';
 import Line from './Line';
+import UpwardArrows from "./UpwardArrows";
 import './Footer.css';
 
 const Footer = () => {
@@ -25,12 +26,8 @@ const Footer = () => {
                     {t("contactMeDescription")}
                 </p>
             </Reveal>
-            <Reveal>
-                <FooterContacts />
-            </Reveal>
-            <button onClick={HandleButtonClick}>
-                {t("goHomeButtonText")}
-            </button>
+            <FooterContacts />
+            <UpwardArrows />
             <Line />
         </footer>
     )

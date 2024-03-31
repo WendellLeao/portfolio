@@ -1,5 +1,6 @@
 import {useTranslation} from 'react-i18next';
 import {OpenResumeFile} from './Contacts';
+import FooterContactsReveal from "./FooterContactsReveal";
 import githubIcon from '../images/github.png';
 import linkedinIcon from '../images/linkedin.png';
 import resumeIcon from '../images/resume.png';
@@ -17,22 +18,30 @@ const FooterContacts = () => {
         <ul>
             <li>
                 <a href="https://github.com/WendellLeao" target="_blank" rel="noopener noreferrer">
-                    <img src={githubIcon} alt="github icon"></img>
+                    <FooterContactsReveal delay={0.5}>
+                        <img src={githubIcon} alt="github icon" />
+                    </FooterContactsReveal>
                 </a>
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/wendell-leao/" target="_blank" rel="noopener noreferrer">
-                    <img src={linkedinIcon} alt="linkedin icon"></img>
+                    <FooterContactsReveal delay={0.6}>
+                        <img src={linkedinIcon} alt="linkedin icon" />
+                    </FooterContactsReveal>
                 </a>
             </li>
             <li>
                 <a className="pointerCursor" onClick={HandleResumeButtonClick} target="_blank" rel="noopener noreferrer">
-                    <img src={resumeIcon} alt="resume icon"></img>
+                    <FooterContactsReveal delay={0.7}>
+                        <img src={resumeIcon} alt="resume icon" />
+                    </FooterContactsReveal>
                 </a>
             </li>
             <li>
                 <a href="mailto:leaowendell@outlook.com?" target="_blank" rel="noopener noreferrer">
-                    <img src={emailIcon} alt="email icon"></img>
+                    <FooterContactsReveal delay={0.8}>
+                        <img src={emailIcon} alt="email icon" />
+                    </FooterContactsReveal>
                 </a>
             </li>
         </ul>

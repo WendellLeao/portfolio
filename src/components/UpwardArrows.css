@@ -1,0 +1,18 @@
+.upwardArrows {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+}
+
+@media (max-width: 75em) {
+    .upwardArrows {
+        width: 100%;
+        position: relative;
+        display: block;
+        right: 0;
+        bottom: 0;
+        margin-bottom: 7%;
+    }
+}
