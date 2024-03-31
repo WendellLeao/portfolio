@@ -1,7 +1,7 @@
 import HomeDescription from './HomeDescription';
 import AboutDescription from './AboutDescription';
 import AboutButton from './AboutButton';
-import Arrows from './Arrows';
+import DownwardArrows from './DownwardArrows';
 import './Home.css';
 
 export function ShowAboutDescription() : void {
@@ -39,7 +39,7 @@ const Home = () => {
             <HomeDescription />
             <AboutDescription />
             <AboutButton />
-            <Arrows />
+            <DownwardArrows />
         </div>
     )
 }

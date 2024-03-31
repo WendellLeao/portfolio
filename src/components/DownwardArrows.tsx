@@ -1,14 +1,14 @@
 import {motion} from "framer-motion";
 import arrowsImage from '../images/arrows.png';
-import './Arrows.css';
+import './DownwardArrows.css';
 
-const Arrows = () => {
+const DownwardArrows = () => {
     return (
         <div className="arrows">
             <a href={"#games"}>
                 <motion.img
                     src={arrowsImage}
-                    alt="arrows image"
+                    alt="downward arrows image"
                     animate={{ y: -15 }}
                     transition={{ ease: "linear", repeat: Infinity, repeatType: "reverse", duration: 0.6 }}
                 />
@@ -17,4 +17,4 @@ const Arrows = () => {
     )
 }
 
-export default Arrows;
+export default DownwardArrows;
