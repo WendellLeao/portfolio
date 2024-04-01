@@ -18,28 +18,28 @@ const FooterContacts = () => {
         <ul>
             <li>
                 <a href="https://github.com/WendellLeao" target="_blank" rel="noopener noreferrer">
-                    <FooterContactsReveal delay={0.5}>
+                    <FooterContactsReveal delay={0.35}>
                         <img src={githubIcon} alt="github icon" />
                     </FooterContactsReveal>
                 </a>
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/wendell-leao/" target="_blank" rel="noopener noreferrer">
-                    <FooterContactsReveal delay={0.6}>
+                    <FooterContactsReveal delay={0.45}>
                         <img src={linkedinIcon} alt="linkedin icon" />
                     </FooterContactsReveal>
                 </a>
             </li>
             <li>
                 <a className="pointerCursor" onClick={HandleResumeButtonClick} target="_blank" rel="noopener noreferrer">
-                    <FooterContactsReveal delay={0.7}>
+                    <FooterContactsReveal delay={0.55}>
                         <img src={resumeIcon} alt="resume icon" />
                     </FooterContactsReveal>
                 </a>
             </li>
             <li>
                 <a href="mailto:leaowendell@outlook.com?" target="_blank" rel="noopener noreferrer">
-                    <FooterContactsReveal delay={0.8}>
+                    <FooterContactsReveal delay={0.65}>
                         <img src={emailIcon} alt="email icon" />
                     </FooterContactsReveal>
                 </a>
