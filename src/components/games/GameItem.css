@@ -5,7 +5,6 @@
     position: relative;
     overflow: hidden;
     margin: 1em 0 6em;
-    border-bottom: 6px solid #45dbe9;
     border-radius: 20px;
     background-color: black;
 }
@@ -34,7 +33,6 @@
     pointer-events: none;
     -webkit-mask-image: url("../../images/white-square.png");
     mask-image: url("../../images/white-square.png");
-    border-radius: 15px;
 }
 
 .videoContainer img {
@@ -46,13 +44,13 @@
 }
 
 .right .gamesItem {
-    margin-left: 16%;
-    border-right: 6px solid #45dbe9;
+    margin-left: 17%;
+    box-shadow: 12px 12px #45dbe9;
 }
 
 .left .gamesItem {
-    margin-left: 3%;
-    border-left: 6px solid #45dbe9;
+    margin-left: 4%;
+    box-shadow: -12px 12px #45dbe9;
 }
 
 @media (max-width: 60em) {
