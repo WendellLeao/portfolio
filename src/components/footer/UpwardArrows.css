@@ -10,7 +10,7 @@
     scale: 1.15;
 }
 
-@media (max-width: 75em) {
+@media (max-width: 60em) {
     .upwardArrows {
         width: 100%;
         position: relative;

@@ -92,31 +92,42 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
         }
     }
     
-    return (
-        <Reveal>
-            <GameItemReveal>
-                <div className={side}>
-                    <div className={GetClassName()}>
-                        <div ref={mediaRef} className="mediaContainer">
-                            <img className="gameGif" src={gifUrl} alt="game gif" />
-                            {GetVideoElement()}
-                        </div>
-                        <div ref={gameDescriptionRef} id="gameDescription" className={side}>
-                            <GameDescription name={title}
-                                             synopses={synopses}
-                                             description={description}
-                                             store={store}
-                                             url={url}
-                                             onCloseButtonClick={ShowGameSideMenu}/>
-                        </div>
-                        <div ref={gameSideMenuRef} id="gameSideMenu" className={side}>
-                            <GameSideMenu title={title} onInfoClick={ShowGameDescription} />
-                        </div>
+    function GetElement() : JSX.Element {
+        const element : JSX.Element =
+            <div className={side}>
+                <div className={GetClassName()}>
+                    <div ref={mediaRef} className="mediaContainer">
+                        <img className="gameGif" src={gifUrl} alt="game gif" />
+                        {GetVideoElement()}
+                    </div>
+                    <div ref={gameDescriptionRef} id="gameDescription" className={side}>
+                        <GameDescription name={title}
+                                         synopses={synopses}
+                                         description={description}
+                                         store={store}
+                                         url={url}
+                                         onCloseButtonClick={ShowGameSideMenu}/>
+                    </div>
+                    <div ref={gameSideMenuRef} id="gameSideMenu" className={side}>
+                        <GameSideMenu title={title} onInfoClick={ShowGameDescription} />
                     </div>
                 </div>
-            </GameItemReveal>
-        </Reveal>
-    )
+            </div>;
+        
+        if (mediaQueryList.matches) {
+            return (
+                <Reveal>
+                    <GameItemReveal>
+                        {element}
+                    </GameItemReveal>
+                </Reveal>
+            )
+        }
+        
+        return element;
+    }
+    
+    return GetElement()
 }
 
 export default GameItem;
