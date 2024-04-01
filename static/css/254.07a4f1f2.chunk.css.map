@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/254.07a4f1f2.chunk.css","mappings":"AAAA,OACI,yBAA0B,CAC1B,iCACJ","sources":["components/Games.css"],"sourcesContent":[".games {\r\n    backdrop-filter: blur(4px);\r\n    -webkit-backdrop-filter: blur(4px);\r\n}"],"names":[],"sourceRoot":""}
