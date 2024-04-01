@@ -6,6 +6,10 @@
     bottom: 10%;
 }
 
+.upwardArrows:hover {
+    scale: 1.15;
+}
+
 @media (max-width: 75em) {
     .upwardArrows {
         width: 100%;

@@ -4,7 +4,7 @@ import './DownwardArrows.css';
 
 const DownwardArrows = () => {
     return (
-        <div className="arrows">
+        <div className="downwardArrows">
             <a href={"#games"}>
                 <motion.img
                     src={arrowsImage}

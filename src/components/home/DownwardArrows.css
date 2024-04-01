@@ -1,9 +1,9 @@
-.arrows {
+.downwardArrows {
     text-align: center;
     padding-right: 2em;
 }
 
-.arrows img {
+.downwardArrows img {
     display: none;
     width: 2.8em;
     height: 2.8em;
@@ -12,8 +12,12 @@
     margin-bottom: 1.5em;
 }
 
+.downwardArrows img:hover {
+    scale: 1.15;
+}
+
 @media (min-width: 110em) {
-    .arrows img {
+    .downwardArrows img {
         display: initial;
     }
 }
