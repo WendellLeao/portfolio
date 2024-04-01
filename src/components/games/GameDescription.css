@@ -1,8 +1,12 @@
 #gameDescription {
-    max-width: 45%;
+    max-width: 35%;
     max-height: 100%;
     position: absolute;
     text-align: center;
+}
+
+#gameDescription h1 {
+    font-size: 27px;
 }
 
 #gameDescription em p {
@@ -13,11 +17,11 @@
 #gameDescription em,
 #gameDescription h1,
 #gameDescription p {
-    padding: 0 4.5rem;
+    padding: 0 2.5rem;
 }
 
 #gameDescription h1 {
-    padding-top: 2rem;
+    padding-top: 1.7rem;
 }
 
 #gameDescription p {
