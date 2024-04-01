@@ -1,6 +1,6 @@
 import GameItem from "./GameItem";
-import imageUrl from '../images/jump-up-image.png';
-import gifUrl from '../gifs/jump-up-2.gif';
+import imageUrl from '../../images/jump-up-image.png';
+import gifUrl from '../../gifs/jump-up-2.gif';
 
 const JumpGameItem = () => {
     const jumpUrl: string = "https://wendell-leao.itch.io/jump-up-2";

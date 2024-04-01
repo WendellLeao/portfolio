@@ -1,10 +1,10 @@
 import {useTranslation} from 'react-i18next';
-import {OpenResumeFile} from './Contacts';
+import {OpenResumeFile} from '../Contacts';
 import FooterContactsReveal from "./FooterContactsReveal";
-import githubIcon from '../images/github.png';
-import linkedinIcon from '../images/linkedin.png';
-import resumeIcon from '../images/resume.png';
-import emailIcon from '../images/email.png';
+import githubIcon from '../../images/github.png';
+import linkedinIcon from '../../images/linkedin.png';
+import resumeIcon from '../../images/resume.png';
+import emailIcon from '../../images/email.png';
 import './FooterContacts.css';
 
 const FooterContacts = () => {

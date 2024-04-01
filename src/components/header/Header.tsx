@@ -1,4 +1,4 @@
-import Line from './Line';
+import Line from '../Line';
 import Navbar from './Navbar';
 import LanguageSelector from './LanguageSelector';
 import './Header.css';

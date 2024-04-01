@@ -2,8 +2,8 @@ import React, {RefObject, useRef, useState} from 'react';
 import GameVideo from './GameVideo';
 import GameDescription from './GameDescription';
 import GameSideMenu from './GameSideMenu';
-import useOnScreen from "./Utils";
-import {Reveal} from "./Reveal";
+import useOnScreen from "../Utils";
+import {Reveal} from "../Reveal";
 import {GameItemReveal} from "./GameItemReveal";
 import './GameItem.css';
 

@@ -1,6 +1,6 @@
 import GameItem from "./GameItem";
-import imageUrl from '../images/funkin-fighter-image.png';
-import gifUrl from '../gifs/funkin-fighter.gif';
+import imageUrl from '../../images/funkin-fighter-image.png';
+import gifUrl from '../../gifs/funkin-fighter.gif';
 
 const FunkinFighterGameItem = () => {
     const funkinFighterUrl: string = "";

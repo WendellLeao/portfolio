@@ -1,6 +1,6 @@
 import GameItem from "./GameItem";
-import imageUrl from '../images/bloodlust-image.png';
-import gifUrl from '../gifs/bloodlust.gif';
+import imageUrl from '../../images/bloodlust-image.png';
+import gifUrl from '../../gifs/bloodlust.gif';
 
 const BloodlustGameItem = () => {
     const bloodlustUrl: string = "https://alyson-morais.itch.io/bloodlust";

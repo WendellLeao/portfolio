@@ -1,5 +1,4 @@
-import {ShowAboutDescription} from './Home';
-import {ShowHomeDescription} from './Home';
+import {ShowAboutDescription, ShowHomeDescription} from './Home';
 import {useTranslation} from 'react-i18next';
 import React, {useState} from 'react';
 import {motion} from "framer-motion";

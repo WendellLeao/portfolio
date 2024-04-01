@@ -1,8 +1,8 @@
 import React from "react";
 import GameButton from './GameButton';
 import {useTranslation} from 'react-i18next';
-import {Reveal} from "./Reveal";
-import closeImage from '../images/close-image.png';
+import {Reveal} from "../Reveal";
+import closeImage from '../../images/close-image.png';
 import './GameDescription.css';
 
 interface Props {

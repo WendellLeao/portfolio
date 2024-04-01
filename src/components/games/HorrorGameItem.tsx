@@ -1,6 +1,6 @@
 import GameItem from "./GameItem";
-import imageUrl from '../images/horror-image.png';
-import gifUrl from '../gifs/horror.gif';
+import imageUrl from '../../images/horror-image.png';
+import gifUrl from '../../gifs/horror.gif';
 
 const HorrorGameItem = () => {
     const horrorUrl: string = "";

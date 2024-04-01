@@ -1,6 +1,6 @@
 import {AnimationControls, motion, useAnimation, useInView} from "framer-motion";
 import React, {useEffect, useRef} from "react";
-import arrowsImage from '../images/arrows.png';
+import arrowsImage from '../../images/arrows.png';
 import './UpwardArrows.css';
 
 const UpwardArrows = () => {

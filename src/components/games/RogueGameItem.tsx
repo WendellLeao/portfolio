@@ -1,6 +1,6 @@
 import GameItem from "./GameItem";
-import imageUrl from '../images/rogue-image.png';
-import gifUrl from '../gifs/rogue.gif';
+import imageUrl from '../../images/rogue-image.png';
+import gifUrl from '../../gifs/rogue.gif';
 
 const RogueGameItem = () => {
     const rogueUrl: string = "https://store.steampowered.com/app/1063590/Rogue_Masters";

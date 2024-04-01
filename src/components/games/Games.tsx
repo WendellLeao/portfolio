@@ -1,5 +1,5 @@
 import {lazy, Suspense} from "react";
-import Loading from "./Loading";
+import Loading from "../Loading";
 import './Games.css';
 
 const RogueGameItem = lazy(() => import("./RogueGameItem"));

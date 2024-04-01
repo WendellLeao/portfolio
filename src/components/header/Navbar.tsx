@@ -1,9 +1,8 @@
-import {ShowAboutDescription} from './Home';
-import {ShowHomeDescription} from './Home';
+import {ShowAboutDescription, ShowHomeDescription} from '../home/Home';
 import {useTranslation} from 'react-i18next';
 import {useState} from 'react';
-import menuImage from '../images/menu.png'
-import menuActiveImage from '../images/menu-active.png'
+import menuImage from '../../images/menu.png'
+import menuActiveImage from '../../images/menu-active.png'
 import './Navbar.css';
 
 const Navbar = () => {

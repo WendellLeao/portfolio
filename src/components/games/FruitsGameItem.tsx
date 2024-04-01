@@ -1,6 +1,6 @@
 import GameItem from "./GameItem";
-import imageUrl from '../images/fruits-image.png';
-import gifUrl from '../gifs/fruits.gif';
+import imageUrl from '../../images/fruits-image.png';
+import gifUrl from '../../gifs/fruits.gif';
 
 const FruitsGameItem = () => {
     const fruitsUrl: string = "https://wendell-leao.itch.io/fruits";

@@ -1,5 +1,5 @@
 import {useTranslation} from 'react-i18next';
-import profileImage from '../images/profile.png';
+import profileImage from '../../images/profile.png';
 import './AboutDescription.css';
 
 const AboutDescription = () => {
