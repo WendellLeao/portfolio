@@ -6,12 +6,12 @@ import './BackgroundParticles.css';
 
 const BackgroundParticles = () => {
     const particlesInit = useCallback(async (engine: Engine) => {
-        console.log(engine);
+        // console.log(engine);
         await loadSlim(engine);
     }, []);
 
     const particlesLoaded = useCallback(async (container: Container | undefined) => {
-        await console.log(container);
+        // await console.log(container);
     }, []);
 
     return (
