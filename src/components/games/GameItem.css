@@ -45,12 +45,12 @@
 
 .right .gamesItem {
     margin-left: 17%;
-    box-shadow: 12px 12px #45dbe9;
+    box-shadow: 5px 5px #45dbe9;
 }
 
 .left .gamesItem {
     margin-left: 4%;
-    box-shadow: -12px 12px #45dbe9;
+    box-shadow: -5px 5px #45dbe9;
 }
 
 @media (max-width: 60em) {
