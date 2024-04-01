@@ -22,8 +22,8 @@ const FooterContactsReveal = ({ children, delay }: Props) => {
         <motion.div
             ref={ref}
             variants={{
-                hidden: { scale: 0 },
-                visible: { scale: 1 },
+                hidden: { rotate: 0, scale: 0 },
+                visible: { rotate: 360, scale: 1 },
             }}
             initial="hidden"
             animate={mainControls}
