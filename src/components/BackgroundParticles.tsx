@@ -32,24 +32,50 @@ const BackgroundParticles = () => {
                     size: "contain",
                 },
                 fpsLimit: 60,
+                interactivity: {
+                    events: {
+                        onHover: {
+                            enable: true,
+                            mode: "grab",
+                        },
+                        resize: true,
+                    },
+                    modes: {
+                        grab: {
+                            distance: 150,
+                            links: {
+                                blink: false,
+                                consent: false,
+                                opacity: 0.7,
+                            }
+                        },
+                    },
+                },
                 particles: {
                     color: {
-                        value: "#0b364b",
+                        value: "#45dae8",
+                    },
+                    links: {
+                        color: "#45dae8",
+                        distance: 80,
+                        enable: true,
+                        opacity: 0.2,
+                        width: 1,
                     },
                     move: {
                         enable: true,
-                        random: false,
-                        speed: 0.1,
+                        random: true,
+                        speed: 0.3,
                         straight: true,
                     },
                     number: {
                         density: {
                             enable: true,
                         },
-                        value: 110,
+                        value: 70,
                     },
                     opacity: {
-                        value: { min: 0.4, max: 0.7 },
+                        value: { min: 0.4, max: 0.6 },
                         animation: {
                             enable: true,
                             speed: 0.2,
