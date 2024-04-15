@@ -32,32 +32,13 @@ const BackgroundParticles = () => {
                     size: "contain",
                 },
                 fpsLimit: 60,
-                interactivity: {
-                    events: {
-                        onHover: {
-                            enable: true,
-                            mode: "grab",
-                        },
-                        resize: true,
-                    },
-                    modes: {
-                        grab: {
-                            distance: 150,
-                            links: {
-                                blink: false,
-                                consent: false,
-                                opacity: 0.7,
-                            }
-                        },
-                    },
-                },
                 particles: {
                     color: {
-                        value: "#45dae8",
+                        value: "#45dbe9",
                     },
                     links: {
-                        color: "#45dae8",
-                        distance: 80,
+                        color: "#45dbe9",
+                        distance: 100,
                         enable: true,
                         opacity: 0.2,
                         width: 1,
@@ -65,28 +46,27 @@ const BackgroundParticles = () => {
                     move: {
                         enable: true,
                         random: true,
-                        speed: 0.3,
-                        straight: true,
+                        speed: 0.65,
+                        straight: false,
                     },
                     number: {
                         density: {
-                            enable: true,
+                            enable: false,
                         },
-                        value: 70,
+                        value: 40,
                     },
                     opacity: {
-                        value: { min: 0.4, max: 0.6 },
+                        value: { min: 0.2, max: 0.5 },
                         animation: {
                             enable: true,
-                            speed: 0.2,
-                            startValue: "min",
+                            speed: 0.1,
                         }
                     },
                     shape: {
                         type: "circle",
                     },
                     size: {
-                        value: { min: 1, max: 6.5 },
+                        value: { min: 3, max: 7 },
                     },
                 },
                 detectRetina: false,
