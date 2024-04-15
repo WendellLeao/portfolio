@@ -4,7 +4,7 @@ import ContactImage from "../ContactImage";
 import githubIcon from '../../images/github.png';
 import linkedinIcon from '../../images/linkedin.png';
 import resumeIcon from '../../images/resume.png';
-import emailIcon from '../../images/email.png';
+import youtubeIcon from '../../images/youtube.png';
 import './HomeContacts.css';
 
 const HomeContacts = () => {
@@ -27,13 +27,13 @@ const HomeContacts = () => {
                 </a>
             </li>
             <li>
-                <a className="pointerCursor" onClick={HandleResumeButtonClick} target="_blank" rel="noopener noreferrer">
-                    <ContactImage url={resumeIcon} alt="resume icon" />
+                <a href="https://www.youtube.com/@wendell-leao" target="_blank" rel="noopener noreferrer">
+                    <ContactImage url={youtubeIcon} alt="youtube icon" />
                 </a>
             </li>
             <li>
-                <a href="mailto:leaowendell@outlook.com?" target="_blank" rel="noopener noreferrer">
-                    <ContactImage url={emailIcon} alt="email icon" />
+                <a className="pointerCursor" onClick={HandleResumeButtonClick} target="_blank" rel="noopener noreferrer">
+                    <ContactImage url={resumeIcon} alt="resume icon" />
                 </a>
             </li>
         </ul>

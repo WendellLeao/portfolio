@@ -5,7 +5,7 @@ import ContactImage from "../ContactImage";
 import githubIcon from '../../images/github.png';
 import linkedinIcon from '../../images/linkedin.png';
 import resumeIcon from '../../images/resume.png';
-import emailIcon from '../../images/email.png';
+import youtubeIcon from '../../images/youtube.png';
 import './FooterContacts.css';
 
 const FooterContacts = () => {
@@ -32,16 +32,16 @@ const FooterContacts = () => {
                 </a>
             </li>
             <li>
-                <a className="pointerCursor" onClick={HandleResumeButtonClick} target="_blank" rel="noopener noreferrer">
-                    <FooterContactsReveal delay={0.55}>
-                        <ContactImage url={resumeIcon} alt="resume icon" />
+                <a href="https://www.youtube.com/@wendell-leao" target="_blank" rel="noopener noreferrer">
+                    <FooterContactsReveal delay={0.65}>
+                        <ContactImage url={youtubeIcon} alt="youtube icon" />
                     </FooterContactsReveal>
                 </a>
             </li>
             <li>
-                <a href="mailto:leaowendell@outlook.com?" target="_blank" rel="noopener noreferrer">
-                    <FooterContactsReveal delay={0.65}>
-                        <ContactImage url={emailIcon} alt="email icon" />
+                <a className="pointerCursor" onClick={HandleResumeButtonClick} target="_blank" rel="noopener noreferrer">
+                    <FooterContactsReveal delay={0.55}>
+                        <ContactImage url={resumeIcon} alt="resume icon" />
                     </FooterContactsReveal>
                 </a>
             </li>
