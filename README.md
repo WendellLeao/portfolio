@@ -1,4 +1,3 @@
 # Portfolio
 
-![image](https://github.com/WendellLeao/portfolio/assets/54878277/e7b4d14e-e15f-4539-a131-d38727910ad2)
-
+![portfolio-thumb](https://github.com/WendellLeao/portfolio/assets/54878277/cd453777-f424-40a5-8049-5b03a36db312)
