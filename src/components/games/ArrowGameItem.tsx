@@ -1,14 +1,13 @@
 import GameItem from "./GameItem";
 import imageUrl from '../../images/arrow-image.png';
-import gifUrl from '../../gifs/arrow.gif';
 
 const Origens = () => {
     const arrowUrl: string = "https://wendell-leao.itch.io/arrow-is-cool-in-the-cemetery-skull";
-    const arrowVideoUrl: string = "videos/arrow.mp4";
+    const arrowVideoUrl: string = "videos/arrow.webm";
 
     return (
         <GameItem id="arrow" title="Arrow is Cool in the Cemetery Skull" synopses="arrowSynopsis" description="arrowDescription" store="itch"
-                  side="right" url={arrowUrl} videoUrl={arrowVideoUrl} imageUrl={imageUrl} gifUrl={gifUrl} />
+                  side="left" url={arrowUrl} videoUrl={arrowVideoUrl} imageUrl={imageUrl} />
     )
 }
 

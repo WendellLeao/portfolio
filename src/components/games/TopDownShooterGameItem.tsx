@@ -1,14 +1,13 @@
 import GameItem from "./GameItem";
 import imageUrl from '../../images/top-down-shooter-image.png';
-import gifUrl from '../../gifs/top-down-shooter.gif';
 
 const TopDownShooterGameItem = () => {
     const topDownShooterUrl: string = "";
-    const topDownShooterVideoUrl: string = "videos/top-down-shooter.mp4";
+    const topDownShooterVideoUrl: string = "videos/top-down-shooter.webm";
     
     return (
         <GameItem id="topDownShooter" title="Roguelike Shooter" synopses="topDownShooterSynopsis" description="topDownShooterDescription" store="itch"
-                  side="right" url={topDownShooterUrl} videoUrl={topDownShooterVideoUrl} imageUrl={imageUrl} gifUrl={gifUrl} />
+                  side="left" url={topDownShooterUrl} videoUrl={topDownShooterVideoUrl} imageUrl={imageUrl} />
     )
 }
 

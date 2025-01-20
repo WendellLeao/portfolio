@@ -3,11 +3,12 @@ import Loading from "../Loading";
 import './Games.css';
 
 const RogueGameItem = lazy(() => import("./RogueGameItem"));
+const DraftGameItem = lazy(() => import("./DraftGameItem"));
 const HorrorGameItem = lazy(() => import("./HorrorGameItem"));
 const OrigensGameItem = lazy(() => import("./OrigensGameItem"));
 const ArrowGameItem = lazy(() => import("./ArrowGameItem"));
-const TopDownShooterGameItem = lazy(() => import("./TopDownShooterGameItem"));
 const OverthrowGameItem = lazy(() => import("./OverthrowGameItem"));
+const TopDownShooterGameItem = lazy(() => import("./TopDownShooterGameItem"));
 const FruitsGameItem = lazy(() => import("./FruitsGameItem"));
 const BloodlustGameItem = lazy(() => import("./BloodlustGameItem"));
 const JumpGameItem = lazy(() => import("./JumpGameItem"));
@@ -17,6 +18,7 @@ const Games = () => {
         <div className="games" id="games">
             <Suspense fallback={<Loading />}>
                 <RogueGameItem />
+                <DraftGameItem />
                 <HorrorGameItem />
                 <OrigensGameItem />
                 <ArrowGameItem />

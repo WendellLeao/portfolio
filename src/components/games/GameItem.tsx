@@ -16,19 +16,16 @@ interface Props {
     url?: string;
     videoUrl: string;
     imageUrl: string;
-    gifUrl: string;
     side: "right" | "left";
     shadow?: "top" | "bottom"
 }
 
-const GameItem = ({id, title, synopses, description, store = "itch", url = "", videoUrl, gifUrl, imageUrl, side, shadow}: Props) => {
+const GameItem = ({id, title, synopses, description, store = "itch", url = "", videoUrl, imageUrl, side, shadow}: Props) => {
     const [videoHasStarted, SetVideoHasStarted] = useState(false);
     
     const mediaRef : RefObject<HTMLDivElement> = useRef<HTMLDivElement>(null)
     const gameImageRef : RefObject<HTMLImageElement> = useRef<HTMLImageElement>(null)
 
-    const mediaIsVisible : boolean = useOnScreen(mediaRef)
-    
     const gameDescriptionRef : RefObject<HTMLDivElement> = useRef<HTMLDivElement>(null); 
     const gameSideMenuRef : RefObject<HTMLDivElement> = useRef<HTMLDivElement>(null);
 
@@ -54,26 +51,11 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
     }
 
     function GetVideoElement() : JSX.Element {
-        if (!mediaQueryList.matches) {
-            return <></>
-        }
-        
-        const imageElement : JSX.Element = <img ref={gameImageRef} src={imageUrl} alt="game image" />;
-
-        if (gameImageRef.current) {
-            gameImageRef.current.style.opacity = videoHasStarted ? "0" : "1";
-        }
-        
-        if (mediaIsVisible || videoHasStarted) {
-            return (
-                <div className="videoContainer">
-                    {imageElement}
-                    <GameVideo videoUrl={videoUrl} onPlay={() => SetVideoHasStarted(true)} />
-                </div>
-            )
-        }
-
-        return imageElement;
+        return (
+            <div className="videoContainer">
+                <GameVideo videoUrl={videoUrl} onPlay={() => SetVideoHasStarted(true)} />
+            </div>
+        )
     }
 
     function GetClassName() : string {
@@ -97,7 +79,6 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
             <div className={side}>
                 <div className={GetClassName()}>
                     <div ref={mediaRef} className="mediaContainer">
-                        <img className="gameGif" src={gifUrl} alt="game gif" />
                         {GetVideoElement()}
                     </div>
                     <div ref={gameDescriptionRef} id="gameDescription" className={side}>
