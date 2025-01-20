@@ -6,7 +6,7 @@ const HorrorGameItem = () => {
 
     return (
         <GameItem id="horror" title="Where Are You?" synopses="horrorSynopsis" description="horrorDescription" store="steam"
-                  side="right" url={horrorUrl} videoUrl={horrorVideoUrl} />
+                  side="left" url={horrorUrl} videoUrl={horrorVideoUrl} />
     )
 }
 

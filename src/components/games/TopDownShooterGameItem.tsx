@@ -6,7 +6,7 @@ const TopDownShooterGameItem = () => {
     
     return (
         <GameItem id="topDownShooter" title="Roguelike Shooter" synopses="topDownShooterSynopsis" description="topDownShooterDescription" store="itch"
-                  side="right" url={topDownShooterUrl} videoUrl={topDownShooterVideoUrl} />
+                  side="left" url={topDownShooterUrl} videoUrl={topDownShooterVideoUrl} />
     )
 }
 

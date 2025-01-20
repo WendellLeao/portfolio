@@ -6,7 +6,7 @@ const Origens = () => {
 
     return (
         <GameItem id="arrow" title="Arrow is Cool in the Cemetery Skull" synopses="arrowSynopsis" description="arrowDescription" store="itch"
-                  side="right" url={arrowUrl} videoUrl={arrowVideoUrl} />
+                  side="left" url={arrowUrl} videoUrl={arrowVideoUrl} />
     )
 }
 

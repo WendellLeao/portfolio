@@ -6,7 +6,7 @@ const AmazonGameItem = () => {
 
     return (
         <GameItem id="amazonWarriors" title="Amazon Warriors" synopses="amazonSynopsis" description="amazonDescription" store="google-play"
-                  side="left" url={amazonUrl} videoUrl={amazonVideoUrl} />
+                  side="right" url={amazonUrl} videoUrl={amazonVideoUrl} />
     )
 }
 
