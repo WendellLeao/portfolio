@@ -4,6 +4,7 @@ import './Games.css';
 
 const RogueGameItem = lazy(() => import("./RogueGameItem"));
 const DraftGameItem = lazy(() => import("./DraftGameItem"));
+const AmazonGameItem = lazy(() => import("./AmazonGameItem"));
 const HorrorGameItem = lazy(() => import("./HorrorGameItem"));
 const OrigensGameItem = lazy(() => import("./OrigensGameItem"));
 const ArrowGameItem = lazy(() => import("./ArrowGameItem"));
@@ -19,6 +20,7 @@ const Games = () => {
             <Suspense fallback={<Loading />}>
                 <RogueGameItem />
                 <DraftGameItem />
+                <AmazonGameItem />
                 <HorrorGameItem />
                 <OrigensGameItem />
                 <ArrowGameItem />
