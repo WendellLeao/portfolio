@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d350206-7c8f-4936-9e29-7219ca901e9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/videos/pet-shop.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/games/PetShopGameItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/games/AmazonGameItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/games/AmazonGameItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/games/ArrowGameItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/games/ArrowGameItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/games/BloodlustGameItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/games/BloodlustGameItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/games/FruitsGameItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/games/FruitsGameItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/games/Games.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/games/Games.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/games/HorrorGameItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/games/HorrorGameItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/games/JumpGameItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/games/JumpGameItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/games/OrigensGameItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/games/OrigensGameItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/games/OverthrowGameItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/games/OverthrowGameItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/games/TopDownShooterGameItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/games/TopDownShooterGameItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/localization/english/english.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/localization/english/english.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/localization/portuguese/portuguese.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/localization/portuguese/portuguese.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/videos/draft-fever.webm" beforeDir="false" afterPath="$PROJECT_DIR$/public/videos/draft-fever.webm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1737373799973</updated>
       <workItem from="1737373800099" duration="3039000" />
-      <workItem from="1737402180034" duration="2899000" />
+      <workItem from="1737402180034" duration="4234000" />
     </task>
     <servers />
   </component>
