@@ -12,19 +12,17 @@ interface Props {
     title: string;
     synopses: string;
     description: string;
-    store: "steam" | "itch";
+    store: "steam" | "itch" | "google-play";
     url?: string;
     videoUrl: string;
-    imageUrl: string;
     side: "right" | "left";
     shadow?: "top" | "bottom"
 }
 
-const GameItem = ({id, title, synopses, description, store = "itch", url = "", videoUrl, imageUrl, side, shadow}: Props) => {
+const GameItem = ({id, title, synopses, description, store = "itch", url = "", videoUrl, side, shadow}: Props) => {
     const [videoHasStarted, SetVideoHasStarted] = useState(false);
     
     const mediaRef : RefObject<HTMLDivElement> = useRef<HTMLDivElement>(null)
-    const gameImageRef : RefObject<HTMLImageElement> = useRef<HTMLImageElement>(null)
 
     const gameDescriptionRef : RefObject<HTMLDivElement> = useRef<HTMLDivElement>(null); 
     const gameSideMenuRef : RefObject<HTMLDivElement> = useRef<HTMLDivElement>(null);

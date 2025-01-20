@@ -1,5 +1,4 @@
 import GameItem from "./GameItem";
-import imageUrl from '../../images/arrow-image.png';
 
 const Origens = () => {
     const arrowUrl: string = "https://wendell-leao.itch.io/arrow-is-cool-in-the-cemetery-skull";
@@ -7,7 +6,7 @@ const Origens = () => {
 
     return (
         <GameItem id="arrow" title="Arrow is Cool in the Cemetery Skull" synopses="arrowSynopsis" description="arrowDescription" store="itch"
-                  side="left" url={arrowUrl} videoUrl={arrowVideoUrl} imageUrl={imageUrl} />
+                  side="right" url={arrowUrl} videoUrl={arrowVideoUrl} />
     )
 }
 

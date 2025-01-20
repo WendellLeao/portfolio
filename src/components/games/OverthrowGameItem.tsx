@@ -1,5 +1,4 @@
 import GameItem from "./GameItem";
-import imageUrl from '../../images/overthrow-image.png';
 
 const OverthrowGameItem = () => {
     const overthrowUrl: string = "https://wendell-leao.itch.io/overthrow-2";
@@ -7,7 +6,7 @@ const OverthrowGameItem = () => {
     
     return (
         <GameItem id="overthrow" title="Overthrow 2" synopses="overthrowSynopsis" description="overthrowDescription" store="itch"
-                  side="right" url={overthrowUrl} videoUrl={overthrowVideoUrl} imageUrl={imageUrl} />
+                  side="left" url={overthrowUrl} videoUrl={overthrowVideoUrl} />
     )
 }
 

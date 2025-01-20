@@ -1,6 +1,7 @@
 import GameButtonDisabled from './GameButtonDisabled';
-import itchImage from '../../images/itchio.png';
 import steamImage from '../../images/steam.png';
+import googlePlayImage from '../../images/googleplay.png';
+import itchImage from '../../images/itchio.png';
 import './GameButton.css';
 
 interface Props{
@@ -24,11 +25,27 @@ const GameButton = ({store, url}: Props) => {
     }
     
     function GetStoreImgClass(store: string) : string {
-        return store === "itch" ? "itchLogo" : "steamLogo";
+        if (store === "steam"){
+            return "steamLogo";
+        }
+
+        if (store === "google-play"){
+            return "playStore";
+        }
+
+        return "itchLogo"
     }
 
     function GetStoreImage(store: string) : string {
-        return store === "itch" ? itchImage : steamImage;
+        if (store === "steam"){
+            return steamImage;
+        }
+
+        if (store === "google-play"){
+            return googlePlayImage;
+        }
+
+        return itchImage;
     }
     
     return (

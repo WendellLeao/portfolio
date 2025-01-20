@@ -1,5 +1,4 @@
 import GameItem from "./GameItem";
-import imageUrl from '../../images/horror-image.png';
 
 const HorrorGameItem = () => {
     const horrorUrl: string = "";
@@ -7,7 +6,7 @@ const HorrorGameItem = () => {
 
     return (
         <GameItem id="horror" title="Where Are You?" synopses="horrorSynopsis" description="horrorDescription" store="steam"
-                  side="left" url={horrorUrl} videoUrl={horrorVideoUrl} imageUrl={imageUrl} />
+                  side="right" url={horrorUrl} videoUrl={horrorVideoUrl} />
     )
 }
 
