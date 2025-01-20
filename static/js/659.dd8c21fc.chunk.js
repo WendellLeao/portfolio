@@ -1,0 +1,2 @@
+"use strict";(globalThis.webpackChunkportfolio=globalThis.webpackChunkportfolio||[]).push([[659],{3487:(i,s,t)=>{t.r(s),t.d(s,{default:()=>e});var o=t(2806),r=t(579);const e=()=>(0,r.jsx)(o.A,{id:"fruits",title:"Fruits",synopses:"fruitsSynopsis",description:"fruitsDescription",store:"itch",side:"right",url:"https://wendell-leao.itch.io/fruits",videoUrl:"videos/fruits.webm"})}}]);
+//# sourceMappingURL=659.dd8c21fc.chunk.js.map

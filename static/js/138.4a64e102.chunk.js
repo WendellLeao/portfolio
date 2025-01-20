@@ -1,0 +1,2 @@
+"use strict";(globalThis.webpackChunkportfolio=globalThis.webpackChunkportfolio||[]).push([[138],{8106:(o,a,r)=>{r.r(a),r.d(a,{default:()=>e});var s=r(2806),i=r(579);const e=()=>(0,i.jsx)(s.A,{id:"amazonWarriors",title:"Amazon Warriors",synopses:"amazonSynopsis",description:"amazonDescription",store:"google-play",side:"right",url:"https://play.google.com/store/apps/details?id=com.Triplano.GuerreirosDaAmazonia&hl=en",videoUrl:"videos/amazon-warriors.webm"})}}]);
+//# sourceMappingURL=138.4a64e102.chunk.js.map

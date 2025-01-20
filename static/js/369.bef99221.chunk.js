@@ -1,2 +1,0 @@
-"use strict";(globalThis.webpackChunkportfolio=globalThis.webpackChunkportfolio||[]).push([[369],{39:(o,s,l)=>{l.r(s),l.d(s,{default:()=>d});var t=l(2520);const i=l.p+"static/media/bloodlust-image.7f0539ed25a94be7996e.png";var e=l(579);const d=()=>(0,e.jsx)(t.A,{id:"bloodlust",title:"Bloodlust",synopses:"bloodlustSynopsis",description:"bloodlustDescription",store:"itch",side:"left",url:"https://alyson-morais.itch.io/bloodlust",videoUrl:"videos/bloodlust.webm",imageUrl:i})}}]);
-//# sourceMappingURL=369.bef99221.chunk.js.map

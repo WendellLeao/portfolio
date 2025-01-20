@@ -1,0 +1,2 @@
+"use strict";(globalThis.webpackChunkportfolio=globalThis.webpackChunkportfolio||[]).push([[184],{3868:(e,o,s)=>{s.r(o),s.d(o,{default:()=>i});var t=s(2806),r=s(579);const i=()=>(0,r.jsx)(t.A,{id:"rogue",title:"Rogue Masters",synopses:"rogueSynopsis",description:"rogueDescription",store:"steam",side:"left",url:"https://store.steampowered.com/app/1063590/Rogue_Masters",videoUrl:"videos/rogue.webm"})}}]);
+//# sourceMappingURL=184.f3e5b1ab.chunk.js.map

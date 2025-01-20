@@ -1,0 +1,2 @@
+"use strict";(globalThis.webpackChunkportfolio=globalThis.webpackChunkportfolio||[]).push([[725],{3421:(o,t,e)=>{e.r(t),e.d(t,{default:()=>r});var s=e(2806),i=e(579);const r=()=>(0,i.jsx)(s.A,{id:"topDownShooter",title:"Roguelike Shooter",synopses:"topDownShooterSynopsis",description:"topDownShooterDescription",store:"itch",side:"left",url:"",videoUrl:"videos/top-down-shooter.webm"})}}]);
+//# sourceMappingURL=725.43e89332.chunk.js.map

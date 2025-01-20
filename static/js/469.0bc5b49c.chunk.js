@@ -1,2 +1,0 @@
-"use strict";(globalThis.webpackChunkportfolio=globalThis.webpackChunkportfolio||[]).push([[469],{9938:(i,s,t)=>{t.r(s),t.d(s,{default:()=>a});var e=t(2520);const r=t.p+"static/media/fruits-image.2a3ed0764d0b659ab122.png";var o=t(579);const a=()=>(0,o.jsx)(e.A,{id:"fruits",title:"Fruits",synopses:"fruitsSynopsis",description:"fruitsDescription",store:"itch",side:"right",url:"https://wendell-leao.itch.io/fruits",videoUrl:"videos/fruits.webm",imageUrl:r})}}]);
-//# sourceMappingURL=469.0bc5b49c.chunk.js.map

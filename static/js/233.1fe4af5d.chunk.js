@@ -1,0 +1,2 @@
+"use strict";(globalThis.webpackChunkportfolio=globalThis.webpackChunkportfolio||[]).push([[233],{8425:(o,e,p)=>{p.r(e),p.d(e,{default:()=>l});var t=p(2806),s=p(579);const l=()=>(0,s.jsx)(t.A,{id:"petShop",title:"Pet Shop Fever: Animal Hotel",synopses:"petShopSynopsis",description:"petShopDescription",store:"google-play",side:"left",url:"https://play.google.com/store/apps/details?id=com.tapps.virtual.pet.hotel.games.world&hl=en",videoUrl:"videos/pet-shop.webm"})}}]);
+//# sourceMappingURL=233.1fe4af5d.chunk.js.map

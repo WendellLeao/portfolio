@@ -1,0 +1,2 @@
+"use strict";(globalThis.webpackChunkportfolio=globalThis.webpackChunkportfolio||[]).push([[155],{4935:(i,s,o)=>{o.r(s),o.d(s,{default:()=>t});var e=o(2806),r=o(579);const t=()=>(0,r.jsx)(e.A,{id:"origens",title:"Origens",synopses:"origensSynopsis",description:"origensDescription",store:"itch",side:"right",url:"https://wendell-leao.itch.io/origens",videoUrl:"videos/origens.webm"})}}]);
+//# sourceMappingURL=155.3c716af3.chunk.js.map

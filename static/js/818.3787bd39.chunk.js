@@ -1,0 +1,2 @@
+"use strict";(globalThis.webpackChunkportfolio=globalThis.webpackChunkportfolio||[]).push([[818],{1234:(i,p,o)=>{o.r(p),o.d(p,{default:()=>t});var s=o(2806),e=o(579);const t=()=>(0,e.jsx)(s.A,{id:"jump",title:"Jump Up 2",synopses:"jumpSynopsis",description:"jumpDescription",store:"itch",side:"right",url:"https://wendell-leao.itch.io/jump-up-2",videoUrl:"videos/jump-up-2.webm"})}}]);
+//# sourceMappingURL=818.3787bd39.chunk.js.map
