@@ -1,0 +1,2 @@
+"use strict";(globalThis.webpackChunkportfolio=globalThis.webpackChunkportfolio||[]).push([[116],{6850:(e,o,s)=>{s.r(o),s.d(o,{default:()=>a});var t=s(2520);const r=s.p+"static/media/rogue-image.6e6275386217eba7cf98.png";var i=s(579);const a=()=>(0,i.jsx)(t.A,{id:"rogue",title:"Rogue Masters",synopses:"rogueSynopsis",description:"rogueDescription",store:"steam",side:"left",url:"https://store.steampowered.com/app/1063590/Rogue_Masters",videoUrl:"videos/rogue.webm",imageUrl:r})}}]);
+//# sourceMappingURL=116.f2f7398d.chunk.js.map

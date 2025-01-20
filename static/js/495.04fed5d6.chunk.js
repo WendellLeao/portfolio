@@ -1,0 +1,2 @@
+"use strict";(globalThis.webpackChunkportfolio=globalThis.webpackChunkportfolio||[]).push([[495],{1884:(o,t,e)=>{e.r(t),e.d(t,{default:()=>p});var i=e(2520);const s=e.p+"static/media/top-down-shooter-image.8bca95cde08b950886d5.png";var r=e(579);const p=()=>(0,r.jsx)(i.A,{id:"topDownShooter",title:"Roguelike Shooter",synopses:"topDownShooterSynopsis",description:"topDownShooterDescription",store:"itch",side:"left",url:"",videoUrl:"videos/top-down-shooter.webm",imageUrl:s})}}]);
+//# sourceMappingURL=495.04fed5d6.chunk.js.map

@@ -1,0 +1,2 @@
+"use strict";(globalThis.webpackChunkportfolio=globalThis.webpackChunkportfolio||[]).push([[464],{5901:(e,o,r)=>{r.r(o),r.d(o,{default:()=>l});var i=r(2520);const s=r.p+"static/media/arrow-image.501e072da7376ef35a13.png";var t=r(579);const l=()=>(0,t.jsx)(i.A,{id:"arrow",title:"Arrow is Cool in the Cemetery Skull",synopses:"arrowSynopsis",description:"arrowDescription",store:"itch",side:"left",url:"https://wendell-leao.itch.io/arrow-is-cool-in-the-cemetery-skull",videoUrl:"videos/arrow.webm",imageUrl:s})}}]);
+//# sourceMappingURL=464.11f528ab.chunk.js.map
