@@ -1,2 +1,0 @@
-"use strict";(globalThis.webpackChunkportfolio=globalThis.webpackChunkportfolio||[]).push([[627],{8607:(e,r,t)=>{t.r(r),t.d(r,{default:()=>i});var o=t(2806),s=t(579);const i=()=>(0,s.jsx)(o.A,{id:"draftFever",title:"Draft Fever Bowl",synopses:"draftFeverSynopsis",description:"draftFeverDescription",store:"steam",side:"right",url:"https://store.steampowered.com/app/3100820/Draft_Fever_Bowl/",videoUrl:"videos/draft-fever.webm"})}}]);
-//# sourceMappingURL=627.d1e4e762.chunk.js.map
