@@ -1,7 +1,7 @@
 import {useTranslation} from 'react-i18next';
 import HomeContacts from './HomeContacts';
 import {motion} from "framer-motion";
-import profileImage from '../../images/profile.png';
+import profileImage from '../../images/profile.webp';
 import './HomeDescription.css';
 
 const HomeDescription = () => {

@@ -31,8 +31,8 @@
     height: 100%;
     position: relative;
     pointer-events: none;
-    -webkit-mask-image: url("../../images/white-square.png");
-    mask-image: url("../../images/white-square.png");
+    -webkit-mask-image: url("../../images/white-square.webp");
+    mask-image: url("../../images/white-square.webp");
 }
 
 .videoContainer img {

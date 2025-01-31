@@ -1,10 +1,10 @@
 import {useTranslation} from 'react-i18next';
 import {OpenResumeFile} from '../Contacts';
 import ContactImage from "../ContactImage";
-import githubIcon from '../../images/github.png';
-import linkedinIcon from '../../images/linkedin.png';
-import resumeIcon from '../../images/resume.png';
-import youtubeIcon from '../../images/youtube.png';
+import githubIcon from '../../images/github.webp';
+import linkedinIcon from '../../images/linkedin.webp';
+import resumeIcon from '../../images/resume.webp';
+import youtubeIcon from '../../images/youtube.webp';
 import './HomeContacts.css';
 
 const HomeContacts = () => {

@@ -1,5 +1,5 @@
 import {motion} from "framer-motion";
-import loadingImage from '../images/loading.png';
+import loadingImage from '../images/loading.webp';
 import './Loading.css';
 
 const Loading = () => {

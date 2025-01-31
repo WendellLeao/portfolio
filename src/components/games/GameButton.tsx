@@ -1,7 +1,7 @@
 import GameButtonDisabled from './GameButtonDisabled';
-import steamImage from '../../images/steam.png';
-import googlePlayImage from '../../images/googleplay.png';
-import itchImage from '../../images/itchio.png';
+import steamImage from '../../images/steam.webp';
+import googlePlayImage from '../../images/googleplay.webp';
+import itchImage from '../../images/itchio.webp';
 import './GameButton.css';
 
 interface Props{
