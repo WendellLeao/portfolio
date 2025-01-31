@@ -35,10 +35,12 @@
 
 .buttonContainer .playStore {
     border-radius: 2%;
+    outline: 1px solid white;
 }
 
 .buttonContainer .itchLogo {
     border-radius: 2%;
+    outline: 1px solid white;
 }
 
 @media (max-width: 60em) {
