@@ -23,6 +23,7 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
     const [videoHasStarted, SetVideoHasStarted] = useState(false);
     
     const mediaRef : RefObject<HTMLDivElement> = useRef<HTMLDivElement>(null)
+    const mediaIsVisible : boolean = useOnScreen(mediaRef)
 
     const gameDescriptionRef : RefObject<HTMLDivElement> = useRef<HTMLDivElement>(null); 
     const gameSideMenuRef : RefObject<HTMLDivElement> = useRef<HTMLDivElement>(null);
@@ -49,11 +50,15 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
     }
 
     function GetVideoElement() : JSX.Element {
-        return (
-            <div className="videoContainer">
-                <GameVideo videoUrl={videoUrl} onPlay={() => SetVideoHasStarted(true)} />
-            </div>
-        )
+        if (mediaIsVisible) {
+            return (
+                <div className="videoContainer">
+                    <GameVideo videoUrl={videoUrl} onPlay={() => SetVideoHasStarted(true)} />
+                </div>
+            )
+        }
+
+        return <></>
     }
 
     function GetClassName() : string {
