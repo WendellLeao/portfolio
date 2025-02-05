@@ -18,6 +18,13 @@ const FooterContacts = () => {
     return (
         <ul>
             <li>
+                <a className="pointerCursor" onClick={HandleResumeButtonClick} target="_blank" rel="noopener noreferrer">
+                    <FooterContactsReveal delay={0.55}>
+                        <ContactImage url={resumeIcon} alt="resume icon" />
+                    </FooterContactsReveal>
+                </a>
+            </li>
+            <li>
                 <a href="https://github.com/WendellLeao" target="_blank" rel="noopener noreferrer">
                     <FooterContactsReveal delay={0.35}>
                         <ContactImage url={githubIcon} alt="github icon" />
@@ -35,13 +42,6 @@ const FooterContacts = () => {
                 <a href="https://www.youtube.com/@wendell-leao" target="_blank" rel="noopener noreferrer">
                     <FooterContactsReveal delay={0.65}>
                         <ContactImage url={youtubeIcon} alt="youtube icon" />
-                    </FooterContactsReveal>
-                </a>
-            </li>
-            <li>
-                <a className="pointerCursor" onClick={HandleResumeButtonClick} target="_blank" rel="noopener noreferrer">
-                    <FooterContactsReveal delay={0.55}>
-                        <ContactImage url={resumeIcon} alt="resume icon" />
                     </FooterContactsReveal>
                 </a>
             </li>

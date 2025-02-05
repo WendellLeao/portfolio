@@ -17,6 +17,11 @@ const HomeContacts = () => {
     return (
         <ul className="homeContacts">
             <li>
+                <a className="pointerCursor" onClick={HandleResumeButtonClick} target="_blank" rel="noopener noreferrer">
+                    <ContactImage url={resumeIcon} alt="resume icon" />
+                </a>
+            </li>
+            <li>
                 <a href="https://github.com/WendellLeao" target="_blank" rel="noopener noreferrer">
                     <ContactImage url={githubIcon} alt="github icon" />
                 </a>
@@ -29,11 +34,6 @@ const HomeContacts = () => {
             <li>
                 <a href="https://www.youtube.com/@wendell-leao" target="_blank" rel="noopener noreferrer">
                     <ContactImage url={youtubeIcon} alt="youtube icon" />
-                </a>
-            </li>
-            <li>
-                <a className="pointerCursor" onClick={HandleResumeButtonClick} target="_blank" rel="noopener noreferrer">
-                    <ContactImage url={resumeIcon} alt="resume icon" />
                 </a>
             </li>
         </ul>
