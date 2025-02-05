@@ -2,6 +2,7 @@ import {ShowAboutDescription, ShowHomeDescription} from './Home';
 import {useTranslation} from 'react-i18next';
 import React, {useState} from 'react';
 import {motion} from "framer-motion";
+import ReactGA from "react-ga4";
 import './AboutButton.css';
 
 const AboutButton = () => {
@@ -12,8 +13,7 @@ const AboutButton = () => {
     function HandleAboutButtonClick() : void {
         const homeDescription : HTMLElement | null = document.getElementById("homeDescription");
 
-        if(homeDescription){
-
+        if(homeDescription) {
             if(homeDescription.style.display === "none") {
                 ShowHomeDescription();
                 SetSelectedText("aboutButtonText");
@@ -22,6 +22,12 @@ const AboutButton = () => {
     
             ShowAboutDescription();
             SetSelectedText("backButtonText");
+
+            ReactGA.event({
+                category: "User",
+                action: "Clicked About Me Button",
+                label: "Home Page",
+            });
         }
     }
     
