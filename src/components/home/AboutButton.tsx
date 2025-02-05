@@ -36,9 +36,11 @@ const AboutButton = () => {
             <motion.button
                 type="submit"
                 onClick={HandleAboutButtonClick}
-                initial={{ scale: 0.9 }}
-                animate={{ scale: 1 }}
-                transition={{ ease: "linear", duration: 0.2 }}>
+                initial={{ scale: 0.95, opacity: 0.8 }}
+                animate={{ scale: 1, opacity: 1 }}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0 }}
+                transition={{ ease: "easeOut", duration: 0.15 }}>
                 {t(selectedText)}
             </motion.button>
         </div>
