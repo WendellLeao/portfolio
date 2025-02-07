@@ -24,9 +24,9 @@ const AboutButton = () => {
             SetSelectedText("backButtonText");
 
             ReactGA.event({
-                category: "User",
-                action: "Clicked About Me Button",
-                label: "Home Page",
+                category: "user",
+                action: "clicked_about_me_button",
+                label: "home",
             });
         }
     }
