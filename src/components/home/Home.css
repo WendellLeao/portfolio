@@ -18,8 +18,8 @@
 }
 
 #home .picture img {
-    border-radius: 10%;
-    border: 2px solid #45dbe9;
+    border-radius: 100%;
+    border: 3px solid #45dbe9;
 }
 
 #homeDescription p {
