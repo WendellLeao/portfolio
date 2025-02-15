@@ -1,3 +1,4 @@
+import ReactGA from "react-ga4";
 import GameButtonDisabled from './GameButtonDisabled';
 import steamImage from '../../images/steam.webp';
 import googlePlayImage from '../../images/googleplay.webp';
@@ -5,16 +6,17 @@ import itchImage from '../../images/itchio.webp';
 import './GameButton.css';
 
 interface Props{
+    name: string;
     store: string;
     url: string;
 }
 
-const GameButton = ({store, url}: Props) => {
+const GameButton = ({name, store, url}: Props) => {
     function GetGameButton() : JSX.Element {
         if(url !== ""){
             return (
                 <div className="buttonContainer">
-                    <a href={url} target="_blank" rel="noopener noreferrer">
+                    <a href={url} onClick={handleClick} target="_blank" rel="noopener noreferrer">
                         <img className={GetStoreImgClass(store)} src={GetStoreImage(store)} alt="store icon"></img>
                     </a>
                 </div>
@@ -47,6 +49,18 @@ const GameButton = ({store, url}: Props) => {
 
         return itchImage;
     }
+
+    const handleClick = () => {
+
+        let lowerCaseName : string = name.toLowerCase();
+        let fixedName = lowerCaseName.replaceAll(" ", "_")
+
+        ReactGA.event({
+            category: "user",
+            action: fixedName,
+            label: "game_button",
+        });
+    };
     
     return (
         <div>{GetGameButton()}</div>

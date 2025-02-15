@@ -41,7 +41,7 @@ const GameDescription = ({name, synopses, description, store, url, onCloseButton
                     </p>
                 </Reveal>
                 <Reveal delay={delay}>
-                    <GameButton store={store} url={url} />
+                    <GameButton name={name} store={store} url={url} />
                 </Reveal>
                 <a className="closeButton" onClick={onCloseButtonClick}>
                     <img src={closeImage} alt="close image"/>
