@@ -52,8 +52,8 @@ const GameButton = ({name, store, url}: Props) => {
 
     const handleClick = () => {
 
-        let lowerCaseName : string = name.toLowerCase();
-        let fixedName = lowerCaseName.replaceAll(" ", "_")
+        const lowerCaseName: string = (name ?? "").toLowerCase();
+        const fixedName: string = lowerCaseName.replace(/\s+/g, "_");
 
         ReactGA.event({
             category: "user",
