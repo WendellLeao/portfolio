@@ -38,25 +38,25 @@ const BackgroundParticles = () => {
                     },
                     links: {
                         color: "#45dbe9",
-                        distance: 100,
+                        distance: 300,
                         enable: true,
-                        opacity: 0.2,
-                        width: 1,
+                        opacity: 0.1,
+                        width: 0.5,
                     },
                     move: {
                         enable: true,
                         random: true,
-                        speed: 0.65,
+                        speed: 0.05,
                         straight: false,
                     },
                     number: {
                         density: {
                             enable: false,
                         },
-                        value: 40,
+                        value: 100,
                     },
                     opacity: {
-                        value: { min: 0.2, max: 0.5 },
+                        value: { min: 0.1, max: 0.2 },
                         animation: {
                             enable: true,
                             speed: 0.1,
@@ -66,7 +66,7 @@ const BackgroundParticles = () => {
                         type: "circle",
                     },
                     size: {
-                        value: { min: 3, max: 7 },
+                        value: { min: 1, max: 8 },
                     },
                 },
                 detectRetina: false,
