@@ -2,7 +2,7 @@ import {ShowAboutDescription, ShowHomeDescription} from './Home';
 import {useTranslation} from 'react-i18next';
 import React, {useState} from 'react';
 import {motion} from "framer-motion";
-// import ReactGA from "react-ga4";
+import { trackAboutButtonClick } from "../../analytics";
 import './AboutButton.css';
 
 const AboutButton = () => {
@@ -22,12 +22,8 @@ const AboutButton = () => {
     
             ShowAboutDescription();
             SetSelectedText("backButtonText");
-/*
-            ReactGA.event({
-                category: "user",
-                action: "clicked_about_me_button",
-                label: "home",
-            });*/
+            
+            trackAboutButtonClick("home", i18n.language);
         }
     }
     

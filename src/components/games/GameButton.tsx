@@ -1,4 +1,4 @@
-// import ReactGA from "react-ga4";
+import { trackGameButtonClick } from "../../analytics";
 import GameButtonDisabled from './GameButtonDisabled';
 import steamImage from '../../images/steam.webp';
 import googlePlayImage from '../../images/googleplay.webp';
@@ -51,15 +51,7 @@ const GameButton = ({name, store, url}: Props) => {
     }
 
     const handleClick = () => {
-
-        const lowerCaseName: string = (name ?? "").toLowerCase();
-        const fixedName: string = lowerCaseName.replace(/\s+/g, "_");
-
-        /*ReactGA.event({
-            category: "user",
-            action: fixedName,
-            label: "game_button",
-        });*/
+        trackGameButtonClick(name, store);
     };
     
     return (
