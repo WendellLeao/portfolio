@@ -23,7 +23,7 @@ const AboutButton = () => {
             ShowAboutDescription();
             SetSelectedText("backButtonText");
             
-            trackAboutButtonClick("home", i18n.language);
+            trackAboutButtonClick();
         }
     }
     

@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect } from "react";
+import {lazy, Suspense, useEffect, useRef} from "react";
 import Loading from "./components/Loading";
 import './App.css';
 import { trackHomePageView } from "./analytics";
@@ -10,8 +10,13 @@ const Games = lazy(() => import("./components/games/Games"));
 const Footer = lazy(() => import("./components/footer/Footer"));
 
 function App() : JSX.Element {
+    const tracked = useRef(false);
+
     useEffect(() => {
-        trackHomePageView();
+        if (!tracked.current) {
+            trackHomePageView();
+            tracked.current = true;
+        }
     }, []);
     
     return (
