@@ -6,14 +6,28 @@ import linkedinIcon from '../../images/linkedin.webp';
 import resumeIcon from '../../images/resume.webp';
 import youtubeIcon from '../../images/youtube.webp';
 import './HomeContacts.css';
+import {trackContactButtonClick} from "../../analytics";
 
 const HomeContacts = () => {
     const { t, i18n } = useTranslation();
 
     function HandleResumeButtonClick(){
         OpenResumeFile(i18n.language);
+        trackContactButtonClick("resume");
+    }
+    
+    function HandleGithubButtonClick(){
+        trackContactButtonClick("github");
     }
 
+    function HandleLinkedInButtonClick(){
+        trackContactButtonClick("linkedin");
+    }
+
+    function HandleYouTubeButtonClick(){
+        trackContactButtonClick("youtube");
+    }
+    
     return (
         <ul className="homeContacts">
             <li>
@@ -22,17 +36,17 @@ const HomeContacts = () => {
                 </a>
             </li>
             <li>
-                <a href="https://github.com/WendellLeao" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/WendellLeao" onClick={HandleGithubButtonClick} target="_blank" rel="noopener noreferrer">
                     <ContactImage url={githubIcon} alt="github icon" />
                 </a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/wendell-leao/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/wendell-leao/" onClick={HandleLinkedInButtonClick} target="_blank" rel="noopener noreferrer">
                     <ContactImage url={linkedinIcon} alt="linkedin icon" />
                 </a>
             </li>
             <li>
-                <a href="https://www.youtube.com/@wendell-leao" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.youtube.com/@wendell-leao" onClick={HandleYouTubeButtonClick} target="_blank" rel="noopener noreferrer">
                     <ContactImage url={youtubeIcon} alt="youtube icon" />
                 </a>
             </li>
