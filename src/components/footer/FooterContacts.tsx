@@ -7,26 +7,26 @@ import linkedinIcon from '../../images/linkedin.webp';
 import resumeIcon from '../../images/resume.webp';
 import youtubeIcon from '../../images/youtube.webp';
 import './FooterContacts.css';
-import {trackContactButtonClick} from "../../analytics";
+import {trackButtonClick} from "../../analytics";
 
 const FooterContacts = () => {
     const { t, i18n } = useTranslation();
     
     function HandleResumeButtonClick() : void {
         OpenResumeFile(i18n.language);
-        trackContactButtonClick("resume");
+        trackButtonClick("resume");
     }
 
     function HandleGithubButtonClick(){
-        trackContactButtonClick("github");
+        trackButtonClick("github");
     }
 
     function HandleLinkedInButtonClick(){
-        trackContactButtonClick("linkedin");
+        trackButtonClick("linkedin");
     }
 
     function HandleYouTubeButtonClick(){
-        trackContactButtonClick("youtube");
+        trackButtonClick("youtube");
     }
     
     return (

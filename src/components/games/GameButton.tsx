@@ -51,7 +51,7 @@ const GameButton = ({name, store, url}: Props) => {
     }
 
     const handleClick = () => {
-        trackGameButtonClick(name, store);
+        trackGameButtonClick(name);
     };
     
     return (

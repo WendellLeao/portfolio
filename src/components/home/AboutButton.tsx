@@ -2,7 +2,7 @@ import {ShowAboutDescription, ShowHomeDescription} from './Home';
 import {useTranslation} from 'react-i18next';
 import React, {useState} from 'react';
 import {motion} from "framer-motion";
-import { trackAboutButtonClick } from "../../analytics";
+import { trackButtonClick } from "../../analytics";
 import './AboutButton.css';
 
 const AboutButton = () => {
@@ -22,8 +22,8 @@ const AboutButton = () => {
     
             ShowAboutDescription();
             SetSelectedText("backButtonText");
-            
-            trackAboutButtonClick();
+
+            trackButtonClick("about_me");
         }
     }
     

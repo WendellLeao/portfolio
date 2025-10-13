@@ -1,5 +1,3 @@
-import React, { useEffect } from "react";
-import ReactGA from "react-ga4";
 import HomeDescription from './HomeDescription';
 import AboutDescription from './AboutDescription';
 import AboutButton from './AboutButton';
@@ -36,10 +34,6 @@ export function ShowHomeDescription() : void {
 }
 
 const Home = () => {
-    useEffect(() => {
-        ReactGA.send("pageview");
-    }, []);
-
     return (
         <div id="home">
             <HomeDescription />

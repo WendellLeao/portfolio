@@ -1,4 +1,4 @@
-import {lazy, Suspense, useEffect} from "react";
+import {lazy, Suspense} from "react";
 import Loading from "./components/Loading";
 import './App.css';
 
