@@ -5,7 +5,7 @@ let initialized = false;
 export function initAnalytics() {
     if (initialized) return;
     ReactGA.initialize([{ trackingId: "G-009YD8N6BH" }]);
-    //trackPageView();
+    trackPageView();
     initialized = true;
 }
 
