@@ -1,19 +1,44 @@
-import { useCallback } from "react";
+import { useCallback, useEffect, useState } from "react";
 import Particles from "react-tsparticles";
 import type { Container, Engine } from "tsparticles-engine";
 import { loadSlim } from "tsparticles-slim";
 import './BackgroundParticles.css';
 
+const MOBILE_MAX_WIDTH = 768;
+
 const BackgroundParticles = () => {
-    const particlesInit = useCallback(async (engine: Engine) => {
-        // console.log(engine);
-        await loadSlim(engine);
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        if (typeof window === "undefined") {
+            return;
+        }
+
+        const checkIsMobile = () => {
+            setIsMobile(window.innerWidth <= MOBILE_MAX_WIDTH);
+        };
+
+        checkIsMobile();
+        window.addEventListener("resize", checkIsMobile);
+
+        return () => window.removeEventListener("resize", checkIsMobile);
     }, []);
+
+    const particlesInit = useCallback(async (engine: Engine) => {
+        if (isMobile) {
+            return;
+        }
+
+        await loadSlim(engine);
+    }, [isMobile]);
 
     const particlesLoaded = useCallback(async (container: Container | undefined) => {
-        // await console.log(container);
     }, []);
 
+    if (isMobile) {
+        return null;
+    }
+    
     return (
         <Particles
             id="tsparticles"
