@@ -33,6 +33,8 @@
   "topDownShooterDescription": "I started working on this game to study some systems and mechanics that I find very interesting, such as randomization of modular Stages, shooting system, improvements and powerups. I plan to finish this game and release it someday.",
   "overthrowSynopsis":"\"In a dream-themed game, you have to knock down the obstacles in your way to get to the end.\"",
   "overthrowDescription": "I develop this game during my bootcamp period. I had the help of senior programmers who accompanied me and taught me many things, it was here that I really absorbed several very important concepts about programming.",
+  "planeSynopsis": "\"A delivery-driven survival experience where you pilot a plane across a flooded world, navigating dangerous skies and managing resources in a dynamic, risk-reward driven environment.\"",
+  "planeDescription": "Developing a systems-driven prototype focused on core gameplay loops, including highly responsive and adaptable flight controls, looting systems with item rarity, and resource-based progression. Implemented inventory, trading, and upgrade systems designed to support risk-reward decisions and scalable progression.",
   "fruitsSynopsis": "\"Face the enemies and collect all the fruits to advance to the next level in this beautiful 2D platformer.\"",
   "fruitsDescription": "A personal project that I developed to practice. My main goal with this project was to develop a simple game with fun and fluid mechanics. It was a great opportunity to study more about A.I and Unity tools.",
   "bloodlustSynopsis": "\"Hide in the shadows to survive the hunt, avoid being seen by hunters and quench your bloodlust.\"",
