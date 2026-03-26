@@ -6,7 +6,7 @@ const RogueGameItem = () => {
     
     return (
         <GameItem id="rogue" title="Rogue Masters" synopses="rogueSynopsis" description="rogueDescription" store="steam"
-                  side="right" url={rogueUrl} videoUrl={rogueVideoUrl} />
+                  side="left" url={rogueUrl} videoUrl={rogueVideoUrl} />
     )
 }
 
