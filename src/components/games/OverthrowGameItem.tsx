@@ -6,7 +6,7 @@ const OverthrowGameItem = () => {
     
     return (
         <GameItem id="overthrow" title="Overthrow 2" synopses="overthrowSynopsis" description="overthrowDescription" store="itch"
-                  side="left" url={overthrowUrl} videoUrl={overthrowVideoUrl} />
+                  side="right" url={overthrowUrl} videoUrl={overthrowVideoUrl} />
     )
 }
 

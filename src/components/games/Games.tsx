@@ -11,6 +11,7 @@ const AmazonGameItem = lazy(() => import("./AmazonGameItem"));
 const HorrorGameItem = lazy(() => import("./HorrorGameItem"));
 const OrigensGameItem = lazy(() => import("./OrigensGameItem"));
 const ArrowGameItem = lazy(() => import("./ArrowGameItem"));
+const MaxProGameItem = lazy(() => import("./MaxProGameItem"));
 const OverthrowGameItem = lazy(() => import("./OverthrowGameItem"));
 const FruitsGameItem = lazy(() => import("./FruitsGameItem"));
 const BloodlustGameItem = lazy(() => import("./BloodlustGameItem"));
@@ -28,6 +29,7 @@ const Games = () => {
                 <AmazonGameItem />
                 <HorrorGameItem />
                 <OrigensGameItem />
+                <MaxProGameItem />
                 <ArrowGameItem />
                 <OverthrowGameItem />
                 <FruitsGameItem />

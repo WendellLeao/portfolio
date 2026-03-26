@@ -6,7 +6,7 @@ const FruitsGameItem = () => {
     
     return (
         <GameItem id="fruits" title="Fruits" synopses="fruitsSynopsis" description="fruitsDescription" store="itch"
-                  side="right" url={fruitsUrl} videoUrl={fruitsVideoUrl} />
+                  side="left" url={fruitsUrl} videoUrl={fruitsVideoUrl} />
     )
 }
 

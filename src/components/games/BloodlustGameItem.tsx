@@ -6,7 +6,7 @@ const BloodlustGameItem = () => {
     
     return (
         <GameItem id="bloodlust" title="Bloodlust" synopses="bloodlustSynopsis" description="bloodlustDescription" store="itch"
-                  side="left" url={bloodlustUrl} videoUrl={bloodlustVideoUrl} />
+                  side="right" url={bloodlustUrl} videoUrl={bloodlustVideoUrl} />
     )
 }
 
