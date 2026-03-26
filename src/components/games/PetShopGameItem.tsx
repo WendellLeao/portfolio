@@ -6,7 +6,7 @@ const PetShopGameItem = () => {
 
     return (
         <GameItem id="petShop" title="Pet Shop Fever: Animal Hotel" synopses="petShopSynopsis" description="petShopDescription" store="google-play"
-                  side="left" url={petShopUrl} videoUrl={petShopVideoUrl} />
+                  side="right" url={petShopUrl} videoUrl={petShopVideoUrl} />
     )
 }
 

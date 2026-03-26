@@ -6,7 +6,7 @@ const JumpGameItem = () => {
     
     return (
         <GameItem id="jump" title="Jump Up 2" synopses="jumpSynopsis" description="jumpDescription" store="itch"
-                  side="left" url={jumpUrl} videoUrl={jumpVideoUrl} />
+                  side="right" url={jumpUrl} videoUrl={jumpVideoUrl} />
     )
 }
 
