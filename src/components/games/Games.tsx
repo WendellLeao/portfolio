@@ -15,8 +15,6 @@ const ArrowGameItem = lazy(() => import("./ArrowGameItem"));
 const PlaneGameItem = lazy(() => import("./PlaneGameItem"));
 const OverthrowGameItem = lazy(() => import("./OverthrowGameItem"));
 const FruitsGameItem = lazy(() => import("./FruitsGameItem"));
-const BloodlustGameItem = lazy(() => import("./BloodlustGameItem"));
-const JumpGameItem = lazy(() => import("./JumpGameItem"));
 
 const Games = () => {
     return (
@@ -35,8 +33,6 @@ const Games = () => {
                 <PlaneGameItem />
                 <OverthrowGameItem />
                 <FruitsGameItem />
-                <BloodlustGameItem />
-                <JumpGameItem />
             </Suspense>
         </div>
     )
