@@ -29,7 +29,7 @@
   "amazonDescription": "Atuei como principal programador no projeto, melhorando sistemas existentes e implementando novos. Contribuí com geração procedural de terreno, habilidades de personagens, comportamento de inimigos, sistemas de UI e otimização de performance.",
 
   "horrorSynopsis": "\"Where Are You é um jogo cooperativo de terror. Seu objetivo é investigar casas assombradas e exorcizar o fantasma que as habita.\"",
-  "horrorDescription": "Projeto pessoal focado em sistemas multiplayer para gameplay cooperativo. Utilizado como base para aprofundar conhecimentos em arquitetura de rede e design multiplayer, com planos de lançamento futuro na Steam.",
+  "horrorDescription": "Projeto pessoal focado em sistemas multiplayer para gameplay cooperativo, desenvolvido com o objetivo de aprofundar conhecimentos em arquitetura de rede. Construído com forte foco em código limpo, manutenível e escalável, garantindo estabilidade na conexão entre jogadores. Implementei funcionalidades essenciais como sistema de lobby, matchmaking e um sistema de reconhecimento de voz, onde a fala do jogador é interpretada pela IA do jogo e impacta diretamente o gameplay.",
 
   "origensSynopsis": "\"Origens é um jogo de plataforma 2D onde o personagem principal embarca em uma jornada em um mundo recém-criado que evolui geologicamente ao longo do tempo.\"",
   "origensDescription": "Projeto final do curso de Tecnologia em Jogos Digitais, onde fui responsável por programação, arte, design e narrativa. É um projeto pelo qual tenho muito carinho, pois foi onde realmente entendi o que significa desenvolver jogos — trabalhar duro para entregar uma experiência robusta dentro do prazo, com a maior qualidade possível, respeitando a visão artística e o conceito do jogo.",
