@@ -8,11 +8,11 @@ const PixGameItem = lazy(() => import("./PixGameItem"));
 const UniqKillerGameItem = lazy(() => import("./UniqKillerGameItem"));
 const PetShopGameItem = lazy(() => import("./PetShopGameItem"));
 const AmazonGameItem = lazy(() => import("./AmazonGameItem"));
+const MaxProGameItem = lazy(() => import("./MaxProGameItem"));
 const ArrowGameItem = lazy(() => import("./ArrowGameItem"));
 const PlaneGameItem = lazy(() => import("./PlaneGameItem"));
 const OrigensGameItem = lazy(() => import("./OrigensGameItem"));
 const HorrorGameItem = lazy(() => import("./HorrorGameItem"));
-const MaxProGameItem = lazy(() => import("./MaxProGameItem"));
 const OverthrowGameItem = lazy(() => import("./OverthrowGameItem"));
 const FruitsGameItem = lazy(() => import("./FruitsGameItem"));
 
@@ -26,11 +26,11 @@ const Games = () => {
                 <UniqKillerGameItem />
                 <PetShopGameItem />
                 <AmazonGameItem />
+                <MaxProGameItem />
                 <ArrowGameItem />
                 <PlaneGameItem />
                 <OrigensGameItem />
                 <HorrorGameItem />
-                <MaxProGameItem />
                 <OverthrowGameItem />
                 <FruitsGameItem />
             </Suspense>
