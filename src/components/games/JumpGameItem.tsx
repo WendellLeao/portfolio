@@ -1,7 +1,7 @@
 import GameItem from "./GameItem";
 
 const JumpGameItem = () => {
-    const jumpUrl: string = "https://wendell-leao.itch.io/jump-up-2";
+    const jumpUrl: string = "https://wendellleao.itch.io/jump-up-2";
     const jumpVideoUrl: string = "videos/jump-up-2.webm";
     
     return (

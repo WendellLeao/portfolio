@@ -1,7 +1,7 @@
 import GameItem from "./GameItem";
 
 const Origens = () => {
-    const arrowUrl: string = "https://wendell-leao.itch.io/arrow-is-cool-in-the-cemetery-skull";
+    const arrowUrl: string = "https://wendellleao.itch.io/arrow-is-cool-in-the-cemetery-skull";
     const arrowVideoUrl: string = "videos/arrow.webm";
 
     return (

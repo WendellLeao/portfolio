@@ -1,7 +1,7 @@
 import GameItem from "./GameItem";
 
 const OverthrowGameItem = () => {
-    const overthrowUrl: string = "https://wendell-leao.itch.io/overthrow-2";
+    const overthrowUrl: string = "https://wendellleao.itch.io/overthrow-2";
     const overthrowVideoUrl: string = "videos/overthrow.webm";
     
     return (

@@ -1,7 +1,7 @@
 import GameItem from "./GameItem";
 
 const FruitsGameItem = () => {
-    const fruitsUrl: string = "https://wendell-leao.itch.io/fruits";
+    const fruitsUrl: string = "https://wendellleao.itch.io/fruits";
     const fruitsVideoUrl: string = "videos/fruits.webm";
     
     return (
