@@ -45,7 +45,7 @@
   "topDownShooterDescription": "Personal project focused on studying modular level generation, combat systems, and progression mechanics, with plans for future release.",
 
   "planeSynopsis": "\"A delivery-driven survival experience where you pilot a plane across a flooded world, navigating dangerous skies and managing resources in a dynamic, risk-reward driven environment.\"",
-  "planeDescription": "Developing a systems-driven prototype focused on core gameplay loops, including highly responsive and adaptable flight controls, looting systems with item rarity, and resource-based progression. Implemented inventory, trading, and upgrade systems designed to support risk-reward decisions and scalable progression.",
+  "planeDescription": "Developing a systems-driven prototype focused on core gameplay loops, including highly responsive and adaptable flight controls, looting systems with item rarity, and resource-based progression. Designed a progression loop centered on collecting rare items, trading them for resources, and reinvesting those resources into aircraft upgrades, creating a continuous risk-reward cycle that drives exploration and player decision-making.",
   
   "overthrowSynopsis": "\"In a dream-themed game, you have to knock down the obstacles in your way to get to the end.\"",
   "overthrowDescription": "Developed during my bootcamp period with guidance from senior developers, focusing on core programming concepts and solid technical foundations. During this project, I learned and applied key systems such as object pooling, event-driven architecture, class communication patterns, and game flow management, building a strong foundation for scalable and maintainable code.",
