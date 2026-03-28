@@ -6,7 +6,7 @@ const DraftGameItem = () => {
 
     return (
         <GameItem id="draftFever" title="Draft Fever Bowl" synopses="draftFeverSynopsis" description="draftFeverDescription" store="steam"
-                  side="right" url={draftFeverUrl} videoUrl={draftFeverVideoUrl} />
+                  side="left" url={draftFeverUrl} videoUrl={draftFeverVideoUrl} />
     )
 }
 
