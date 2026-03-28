@@ -13,9 +13,11 @@ const AboutDescription = () => {
             <div className="picture">
                 <img id="profileImg" src={profileImage} alt="profile picture"></img>
             </div>
-            <p>
-                {t("aboutDescription")}
-            </p>
+            <div className="descriptionText">
+                <p>
+                    {t("aboutDescription")}
+                </p>
+            </div>
         </div>
     )
 }

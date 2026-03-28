@@ -6,11 +6,6 @@
     padding-bottom: 1.5em;
 }
 
-#aboutDescription p {
-    max-width: 50%;
-    justify-self: center;
-}
-
 #aboutDescription .picture {
     padding-bottom: 3em;
 }
@@ -18,6 +13,16 @@
 #aboutDescription .picture img {
     max-width: 15em;
     margin: 0 0;
+}
+
+#aboutDescription .descriptionText {
+    text-align: justify;
+}
+
+#aboutDescription .descriptionText p {
+    max-width: 50%;
+    justify-self: center;
+    white-space: pre-line;
 }
 
 @media (max-width: 60em) {
