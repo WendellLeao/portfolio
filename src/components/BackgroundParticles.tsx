@@ -3,6 +3,7 @@ import Particles from "react-tsparticles";
 import type { Container, Engine } from "tsparticles-engine";
 import { loadSlim } from "tsparticles-slim";
 import './BackgroundParticles.css';
+import bgImage from '../images/bg.webp';
 
 const MOBILE_MAX_WIDTH = 768;
 
@@ -36,9 +37,14 @@ const BackgroundParticles = () => {
     }, []);
 
     if (isMobile) {
-        return null;
+        return (
+            <div
+                className="mobile-background"
+                style={{ backgroundImage: `url(${bgImage})` }}
+            />
+        );
     }
-    
+
     return (
         <Particles
             id="tsparticles"
@@ -97,7 +103,7 @@ const BackgroundParticles = () => {
                 detectRetina: false,
             }}
         />
-    )
-}
+    );
+};
 
 export default BackgroundParticles;
