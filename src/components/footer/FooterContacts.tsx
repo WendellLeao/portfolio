@@ -46,7 +46,7 @@ const FooterContacts = () => {
                 </a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/wendell-leao/" onClick={HandleLinkedInButtonClick} target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/wendellleao/" onClick={HandleLinkedInButtonClick} target="_blank" rel="noopener noreferrer">
                     <FooterContactsReveal delay={0.45}>
                         <ContactImage url={linkedinIcon} alt="linkedin icon" />
                     </FooterContactsReveal>
