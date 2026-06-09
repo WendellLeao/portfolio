@@ -46,7 +46,7 @@ const HomeContacts = () => {
                 </a>
             </li>
             <li>
-                <a href="https://www.youtube.com/@wendell-leao" onClick={HandleYouTubeButtonClick} target="_blank" rel="noopener noreferrer">
+                <a href="https://www.youtube.com/@wendellleao" onClick={HandleYouTubeButtonClick} target="_blank" rel="noopener noreferrer">
                     <ContactImage url={youtubeIcon} alt="youtube icon" />
                 </a>
             </li>

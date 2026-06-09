@@ -53,7 +53,7 @@ const FooterContacts = () => {
                 </a>
             </li>
             <li>
-                <a href="https://www.youtube.com/@wendell-leao" onClick={HandleYouTubeButtonClick} target="_blank" rel="noopener noreferrer">
+                <a href="https://www.youtube.com/@wendellleao" onClick={HandleYouTubeButtonClick} target="_blank" rel="noopener noreferrer">
                     <FooterContactsReveal delay={0.65}>
                         <ContactImage url={youtubeIcon} alt="youtube icon" />
                     </FooterContactsReveal>
