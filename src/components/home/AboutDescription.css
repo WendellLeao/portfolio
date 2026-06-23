@@ -16,12 +16,12 @@
 }
 
 #aboutDescription .descriptionText {
-    text-align: justify;
+    display: flex;
+    justify-content: center;
 }
 
 #aboutDescription .descriptionText p {
     max-width: 50%;
-    justify-self: center;
     white-space: pre-line;
 }
 
