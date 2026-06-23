@@ -1,11 +1,11 @@
 import GameItem from "./GameItem";
 
 const AmazonGameItem = () => {
-    const amazonUrl: string = "https://play.google.com/store/apps/details?id=com.Triplano.GuerreirosDaAmazonia&hl=en";
+    const amazonUrl: string = "https://apps.apple.com/tr/app/amazon-warriors/id6517349543";
     const amazonVideoUrl: string = "videos/amazon-warriors.webm";
 
     return (
-        <GameItem id="amazonWarriors" title="Amazon Warriors" synopses="amazonSynopsis" description="amazonDescription" store="google-play"
+        <GameItem id="amazonWarriors" title="Amazon Warriors" synopses="amazonSynopsis" description="amazonDescription" store="app-store"
                   side="left" url={amazonUrl} videoUrl={amazonVideoUrl} />
     )
 }

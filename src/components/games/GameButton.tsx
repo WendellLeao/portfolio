@@ -2,6 +2,7 @@ import { trackGameButtonClick } from "../../analytics";
 import GameButtonDisabled from './GameButtonDisabled';
 import steamImage from '../../images/steam.webp';
 import googlePlayImage from '../../images/googleplay.webp';
+import appStoreImage from '../../images/appstore.webp';
 import itchImage from '../../images/itchio.webp';
 import './GameButton.css';
 
@@ -35,6 +36,10 @@ const GameButton = ({name, store, url}: Props) => {
             return "playStore";
         }
 
+        if (store === "app-store"){
+            return "appStore";
+        }
+
         return "itchLogo"
     }
 
@@ -45,6 +50,10 @@ const GameButton = ({name, store, url}: Props) => {
 
         if (store === "google-play"){
             return googlePlayImage;
+        }
+
+        if (store === "app-store"){
+            return appStoreImage;
         }
 
         return itchImage;

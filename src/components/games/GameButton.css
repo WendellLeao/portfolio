@@ -39,6 +39,11 @@
     outline: 1px solid white;
 }
 
+.buttonContainer .appStore {
+    border-radius: 2%;
+    outline: 1px solid white;
+}
+
 .buttonContainer .itchLogo {
     border-radius: 2%;
     outline: 1px solid white;

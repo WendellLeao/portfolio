@@ -12,7 +12,7 @@ interface Props {
     title: string;
     synopses: string;
     description: string;
-    store: "steam" | "itch" | "google-play";
+    store: "steam" | "itch" | "google-play" | "app-store";
     url?: string;
     videoUrl: string;
     side: "right" | "left";
