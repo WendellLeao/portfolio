@@ -6,7 +6,7 @@ const PlaneGameItem = () => {
 
     return (
         <GameItem id="plane" title="Plane Game" synopses="planeSynopsis" description="planeDescription" store="steam"
-                  side="right" url={storeUrl} videoUrl={videoUrl} />
+                  side="left" url={storeUrl} videoUrl={videoUrl} />
     )
 }
 

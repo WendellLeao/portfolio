@@ -9,12 +9,10 @@ const DraftGameItem = lazy(() => import("./DraftGameItem"));
 const PetShopGameItem = lazy(() => import("./PetShopGameItem"));
 const AmazonGameItem = lazy(() => import("./AmazonGameItem"));
 const MaxProGameItem = lazy(() => import("./MaxProGameItem"));
+const OrigensGameItem = lazy(() => import("./OrigensGameItem"));
 const ArrowGameItem = lazy(() => import("./ArrowGameItem"));
 const PlaneGameItem = lazy(() => import("./PlaneGameItem"));
-const OrigensGameItem = lazy(() => import("./OrigensGameItem"));
 const HorrorGameItem = lazy(() => import("./HorrorGameItem"));
-const OverthrowGameItem = lazy(() => import("./OverthrowGameItem"));
-const FruitsGameItem = lazy(() => import("./FruitsGameItem"));
 
 const Games = () => {
     return (
@@ -27,12 +25,10 @@ const Games = () => {
                 <PetShopGameItem />
                 <AmazonGameItem />
                 <MaxProGameItem />
+                <OrigensGameItem />
                 <ArrowGameItem />
                 <PlaneGameItem />
-                <OrigensGameItem />
                 <HorrorGameItem />
-                <OverthrowGameItem />
-                <FruitsGameItem />
             </Suspense>
         </div>
     )
