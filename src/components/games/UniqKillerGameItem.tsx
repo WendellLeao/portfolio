@@ -6,7 +6,7 @@ const UniqKillerGameItem = () => {
 
     return (
         <GameItem id="uniqKiller" title="Uniqkiller" synopses="uniqKillerSynopsis" description="uniqKillerDescription" store="google-play"
-                  side="left" url={uniqKillerUrl} videoUrl={uniqKillerVideoUrl} />
+                  side="right" url={uniqKillerUrl} videoUrl={uniqKillerVideoUrl} />
     )
 }
 
