@@ -13,6 +13,9 @@
   "draftFeverSynopsis": "\"Draft Fever Bowl é um jogo competitivo multiplayer de simulação de gerenciamento de futebol.\"",
   "draftFeverDescription": "Desenvolvi sistemas centrais de gameplay e UI de alta fidelidade para este jogo multiplayer de PC, lidando com fluxos complexos de jogadores e grande volume de dados. Contribuí na tomada de decisões técnicas, otimizei sistemas críticos de performance e resolvi desafios de pipeline, incluindo a migração de HDRP para URP e correção de problemas de shaders e materiais em produção.",
 
+  "thePlatformSynopsis": "\"The Platform é um jogo multiplataforma de conteúdo gerado por jogadores (UGC), onde é possível criar, compartilhar e explorar experiências multiplayer entre PC, Mobile e VR.\"",
+  "thePlatformDescription": "Desenvolvi sistemas de sincronização multiplayer utilizando FishNet para um jogo multiplataforma de conteúdo gerado por jogadores (UGC), com suporte a jogabilidade entre PC, Mobile e VR. Foco na construção de uma arquitetura de rede robusta, garantindo sincronização de gameplay estável e consistente entre diferentes plataformas e dispositivos.",
+
   "pixSynopsis": "\"PIX Football Manager é um simulador casual e nostálgico de gerenciamento de futebol com foco em scouting.\"",
   "pixDescription": "Desenvolvi sistemas de gameplay e interfaces escaláveis utilizando o UI Toolkit da Unity, construindo funcionalidades centrais e estruturas de UI em um ambiente real de produção. Foco em manutenibilidade, performance e arquitetura de UI limpa.",
 

@@ -5,10 +5,10 @@ import './Games.css';
 const RogueGameItem = lazy(() => import("./RogueGameItem"));
 const UniqKillerGameItem = lazy(() => import("./UniqKillerGameItem"));
 const PixGameItem = lazy(() => import("./PixGameItem"));
-const DraftGameItem = lazy(() => import("./DraftGameItem"));
 const PetShopGameItem = lazy(() => import("./PetShopGameItem"));
+const DraftGameItem = lazy(() => import("./DraftGameItem"));
+const ThePlatformItem = lazy(() => import("./ThePlatform"));
 const AmazonGameItem = lazy(() => import("./AmazonGameItem"));
-const MaxProGameItem = lazy(() => import("./MaxProGameItem"));
 const OrigensGameItem = lazy(() => import("./OrigensGameItem"));
 const ArrowGameItem = lazy(() => import("./ArrowGameItem"));
 const PlaneGameItem = lazy(() => import("./PlaneGameItem"));
@@ -21,10 +21,10 @@ const Games = () => {
                 <RogueGameItem />
                 <UniqKillerGameItem />
                 <PixGameItem />
-                <DraftGameItem />
                 <PetShopGameItem />
+                <DraftGameItem />
+                <ThePlatformItem />
                 <AmazonGameItem />
-                <MaxProGameItem />
                 <OrigensGameItem />
                 <ArrowGameItem />
                 <PlaneGameItem />
