@@ -12,58 +12,58 @@
   "backButtonText": "BACK",
 
   "draftFeverSynopsis": "\"Draft Fever Bowl is a competitive multiplayer football management simulation game.\"",
-  "draftFeverDescription": "Developed core gameplay systems and high-fidelity UI for a multiplayer PC title, handling complex player flows and large-scale data. Contributed to technical decision-making, optimized performance-critical systems, and solved major pipeline challenges, including migrating the project from HDRP to URP and resolving shader and material issues in production.",
+  "draftFeverDescription": "Acted as the team's front-end technical reference and onboarded four programmers while architecting the scouting and drafting systems, synchronizing 2,000+ entities and raising performance from 40 to 80-100 FPS. Led the HDRP-to-URP migration, rebuilt the character-generation pipeline to cut load times from 4 minutes to roughly 50 seconds, and resolved async texture-generation frame drops along the way.",
 
   "thePlatformSynopsis": "\"The Platform is a cross-platform user-generated content game where players create, share, and explore multiplayer experiences across PC, Mobile, and VR.\"",
-  "thePlatformDescription": "Developed FishNet-based multiplayer synchronization systems for a cross-platform user-generated content game, supporting seamless play across PC, Mobile, and VR. Focused on building a robust network architecture, ensuring stable and consistent gameplay synchronization across different platforms and devices.",
+  "thePlatformDescription": "Joined as a senior reinforcement on a cross-platform user-generated-content platform in the style of Roblox and Rec Room, brought in to diagnose and resolve critical stability issues across PC, Mobile, and VR ahead of a high-stakes Gamescom (Germany) showcase. Fixed a critical late-joiner crash in the FishNet networking layer and deployed dedicated servers via PlayFlow Cloud to support cross-platform multiplayer testing.",
 
   "pixSynopsis": "\"PIX Football Manager is a nostalgic, casual football management simulator focused on scouting.\"",
-  "pixDescription": "Developed gameplay systems and scalable UI using Unity’s UI Toolkit, building core features and structured interfaces in a real production environment. Focused on maintainability, performance, and clean UI architecture.",
+  "pixDescription": "Built core gameplay systems and a scalable, data-driven UI with Unity's UI Toolkit, including diegetic interfaces that keep players immersed in the simulation. Integrated the game with backend services through a Swagger-mapped REST API, turning live data into responsive, production-ready screens.",
 
   "rogueSynopsis": "\"Rogue Masters is a cooperative game of up to 6 players with souls-like style combat.\"",
-  "rogueDescription": "Focused on multiplayer networking using Mirror with a P2P topology, developing synchronization systems for gameplay mechanics. Implemented synchronization for animations, projectiles, and game state, ensuring smooth, stable, and responsive online gameplay. Optimized core architecture to maintain performance and reliability during gameplay.",
+  "rogueDescription": "Owned multiplayer networking for this 6-player Steam title, using Mirror over a peer-to-peer topology to synchronize animations, projectiles, game state, and Mecanim-driven network state machines for smooth, responsive online play. Integrated Steamworks features including a room browser and friend invites, tracked down and fixed a critical memory leak in Mirror, and rebuilt the bootstrap flow asynchronously, cutting startup time by roughly 60%.",
 
   "uniqKillerSynopsis": "\"Combine different types of bodies, combat classes, skills, weapons and skins to create unique heroes, both in appearance and gameplay, for fast PVP battles in urban environments.\"",
-  "uniqKillerDescription": "Developed gameplay systems using Photon Fusion, working with dedicated server architecture and multiplayer synchronization. Implemented weapons systems and character customization features, while working with PlayFab services through its dashboard and CI/CD pipelines for automated build generation. Focused on mobile performance optimization while ensuring stable and responsive online gameplay.",
+  "uniqKillerDescription": "Built weapon systems and character customization on Photon Fusion's dedicated-server architecture, supporting 12-player matches with synchronized, low-latency combat. Optimized physics with non-allocating queries to keep mobile performance stable, and used PlayFab's dashboard and CI/CD pipelines to automate build generation and deployment.",
 
   "petShopSynopsis": "\"In Pet Shop Fever, you’ll run a bustling Hotel Simulator, where every decision counts!\"",
-  "petShopDescription": "Developed core UI architecture, including screen systems, menus, modals, and animations. Contributed to gameplay systems and AI while working within a highly optimized and complex code framework. Integrated advanced SDKs and followed strict development guidelines, helping shape the project from early prototyping to production-ready features.",
+  "petShopDescription": "Designed the core UI architecture, including screen systems, menus, modals, and animations, around an additive-scene framework that kept the project modular as it scaled. Contributed to gameplay and AI systems, integrated Addressables and Asset Bundles for optimized asset loading, and helped shape the game from early prototyping through production-ready features within a highly optimized, complex codebase.",
 
   "amazonSynopsis": "\"Ten ordinary young people, who lived in different cities, find themselves in the Amazon “by fate” and, little by little, recognize that they have a calling to work in that place. Help our heroes save the Forest!\"",
-  "amazonDescription": "Worked as the primary programmer on the project, improving existing systems and implementing new ones. Contributed to procedural terrain generation, character abilities, enemy behavior, UI systems, and performance optimization.",
+  "amazonDescription": "Amazon Warriors is a mobile adaptation of a well-known Brazilian children's book and animated franchise, commissioned to grow the brand's presence in interactive media. Joined as the sole programmer and expanded the existing systems into the branded game: terrain generation, UI, character abilities, enemy AI, backend integration, monetization, and analytics, holding a stable 30 FPS on mobile.",
 
   "horrorSynopsis": "\"Where Are You is a cooperative horror game. Your goal is to investigate haunted houses and exorcise the ghost that haunts them.\"",
-  "horrorDescription": "Personal project focused on multiplayer systems for cooperative gameplay, designed to deepen expertise in networking architecture. Built with a strong emphasis on clean, maintainable, and scalable code, ensuring stable player connections. Implemented core multiplayer features including lobby systems and matchmaking, as well as a voice recognition system where player speech is interpreted by the game’s AI, directly impacting gameplay.",
+  "horrorDescription": "Personal project built to deepen my expertise in multiplayer networking architecture, with an emphasis on clean, maintainable, and scalable code for stable player connections. Implemented core multiplayer features including lobby systems and matchmaking, plus a voice-recognition system where the game's AI interprets player speech and lets it directly influence gameplay.",
 
   "origensSynopsis": "\"Origens is a 2D platform game where the main character takes a journey in a newly created world that evolves geologically through the ages.\"",
-  "origensDescription": "Final project for my Digital Games Technology degree, where I was responsible for programming, art, design, and narrative. Developed as a full-cycle project, I implemented core systems such as save/load, collectibles, and localization, while also producing art, animations, and cutscenes using Timeline and Cinemachine. This project represents a defining moment in my development as a programmer, where I learned to build a cohesive and robust experience under real constraints, balancing technical implementation with artistic direction and overall game vision.",
+  "origensDescription": "Final project for my Digital Games Technology degree, where I owned programming, art, design, and narrative end to end. Implemented core systems such as save/load, collectibles, and localization, while producing art, animations, and cutscenes with Timeline and Cinemachine. A defining project in my growth as a programmer, it's where I learned to ship a cohesive, robust experience under real constraints, balancing technical execution with artistic direction and overall game vision.",
   
   "maxProSynopsis": "\"This app introduces the most engaging way to improve your workout routine, developed for beginner and elite athletes alike who want to achieve their fitness with fun challenges and rewards each day.\"",
-  "maxProDescription": "Developed gameplay systems for a mobile experience integrated with MAXPRO fitness equipment, transforming real-world workout input into interactive mechanics. Focused on reliable input processing, responsiveness, and delivering a smooth experience across different user levels.",
+  "maxProDescription": "Built gameplay systems for a mobile experience integrated with MAXPRO fitness equipment, translating real-world workout input into interactive mechanics. Focused on reliable input processing and responsiveness to deliver a smooth experience across skill levels.",
 
   "arrowSynopsis": "\"You're in a cemetery and have to shoot arrows at hordes of skeletons to survive as long as possible.\"",
-  "arrowDescription": "Technical project developed to demonstrate code quality, architecture, and problem-solving skills during a programming evaluation process. This project was particularly challenging, as it was developed right after completing a bootcamp alongside senior programmers, where I learned how to approach real-world game development. Built over the course of a month with daily development, it marked a significant leap in my technical skills and understanding of production-level systems.",
+  "arrowDescription": "Technical project built to demonstrate code quality, architecture, and problem-solving during a programming evaluation. Developed over a month of daily iteration right after a bootcamp spent working alongside senior programmers, it marked a significant leap in my technical skills and understanding of production-level systems.",
 
   "topDownShooterSynopsis": "\"A roguelike shooter where you need to clear areas with enemies and improve your equipment to get further and further.\"",
-  "topDownShooterDescription": "Personal project focused on studying modular level generation, combat systems, and progression mechanics, with plans for future release.",
+  "topDownShooterDescription": "Personal project exploring modular level generation, combat systems, and progression mechanics, with plans for future release.",
 
   "planeSynopsis": "\"A delivery-driven survival experience where you pilot a plane across a flooded world, navigating dangerous skies and managing resources in a dynamic, risk-reward driven environment.\"",
-  "planeDescription": "Developing a systems-driven prototype focused on core gameplay loops, including highly responsive and adaptable flight controls, looting systems with item rarity, and resource-based progression. Designed a progression loop centered on collecting rare items, trading them for resources, and reinvesting those resources into aircraft upgrades, creating a continuous risk-reward cycle that drives exploration and player decision-making.",
-  
+  "planeDescription": "Building a systems-driven prototype focused on a tight core gameplay loop: responsive, adaptable flight controls, a rarity-based loot system, and resource-driven progression. Designed a loop where players collect rare items, trade them for resources, and reinvest in aircraft upgrades, creating a continuous risk-reward cycle that drives exploration and decision-making.",
+
   "overthrowSynopsis": "\"In a dream-themed game, you have to knock down the obstacles in your way to get to the end.\"",
-  "overthrowDescription": "Developed during my bootcamp period with guidance from senior developers, focusing on core programming concepts and solid technical foundations. During this project, I learned and applied key systems such as object pooling, event-driven architecture, class communication patterns, and game flow management, building a strong foundation for scalable and maintainable code.",
+  "overthrowDescription": "Built during my bootcamp under guidance from senior developers, with a focus on core programming concepts and solid technical foundations. Applied key systems including object pooling, event-driven architecture, cross-class communication patterns, and game-flow management, laying the groundwork for scalable, maintainable code.",
 
   "fruitsSynopsis": "\"Face the enemies and collect all the fruits to advance to the next level in this beautiful 2D platformer.\"",
-  "fruitsDescription": "Personal project focused on building clean and responsive gameplay mechanics, with emphasis on AI behavior and core Unity systems. Used this project to explore gameplay feel, feedback, and juiceness, working with animations and visual effects to deliver a fluid and stable experience.",
+  "fruitsDescription": "Personal project focused on clean, responsive gameplay mechanics, with an emphasis on AI behavior and core Unity systems. Used it to explore game feel and feedback, working with animation and visual effects to deliver a fluid, stable experience.",
 
   "bloodlustSynopsis": "\"Hide in the shadows to survive the hunt, avoid being seen by hunters and quench your bloodlust.\"",
-  "bloodlustDescription": "Developed during a 48-hour Game Jam, focusing on gameplay design and programming, including core mechanics and level design.",
+  "bloodlustDescription": "Built during a 48-hour game jam, with a focus on gameplay design and programming, including core mechanics and level design.",
 
   "funkinFighterSynopsis": "\"Imagine a mix of Street Fighter and Friday Night Funkin'. Keep up with the music to beat your opponent in a street fight.\"",
-  "funkinFighterDescription": "Creative project focused on designing unique gameplay mechanics, combining rhythm and fighting systems into a cohesive and functional experience.",
+  "funkinFighterDescription": "Creative project exploring unique gameplay mechanics, fusing rhythm and fighting systems into one cohesive, functional experience.",
 
   "jumpSynopsis": "\"Jump the obstacles and beat the platform challenges to advance to the next stage.\"",
-  "jumpDescription": "Remake of my first project, created to evaluate technical growth and improvements in code quality, structure, and overall development approach.",
+  "jumpDescription": "Remake of my first project, built to measure my technical growth in code quality, structure, and overall development approach.",
 
   "contactMe": "Get in Touch",
   "contactMeDescription": "If you want to know more about my work or get in touch with me, feel free to check out my networks by clicking on any of the buttons below!",
