@@ -66,6 +66,10 @@
     animation: .4s cubic-bezier(1,-0.01,.12,.8) 0.7s 1 hideBlack forwards;
 }
 
+#home #homeDescription h2::after {
+    width: 42%;
+}
+
 @media (min-width: 110em) {
     #home {
         min-height: 100vh;
