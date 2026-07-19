@@ -7,7 +7,7 @@ const Loading = () => {
        <div className="loadingContainer">
            <motion.img
                src={loadingImage}
-               alt="loading image"
+               alt=""
                animate={{ rotate: 360 }}
                transition={{ ease: "linear", repeat: Infinity, repeatType: "reverse", duration: 0.6 }}/>
        </div>
