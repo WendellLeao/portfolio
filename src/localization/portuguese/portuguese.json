@@ -37,32 +37,11 @@
   "origensSynopsis": "\"Origens é um jogo de plataforma 2D onde o personagem principal embarca em uma jornada em um mundo recém-criado que evolui geologicamente ao longo do tempo.\"",
   "origensDescription": "Projeto final do curso de Tecnologia em Jogos Digitais, no qual fui responsável por programação, arte, design e narrativa de ponta a ponta. Implementei sistemas centrais como save/load, coletáveis e localização, além de produzir arte, animações e cutscenes com Timeline e Cinemachine. Um projeto decisivo na minha evolução como programador, foi onde aprendi a entregar uma experiência coesa e robusta sob restrições reais, equilibrando implementação técnica com direção artística e visão geral do jogo.",
   
-  "maxProSynopsis": "\"Este aplicativo apresenta uma forma envolvente de melhorar sua rotina de treinos, desenvolvido tanto para iniciantes quanto para atletas avançados que desejam alcançar seus objetivos com desafios e recompensas diárias.\"",
-  "maxProDescription": "Desenvolvi sistemas de gameplay para uma experiência mobile integrada ao equipamento de treino MAXPRO, transformando exercícios reais em mecânicas interativas. Foco no processamento confiável de input e na responsividade, entregando uma experiência fluida para diferentes níveis de usuário.",
-
   "arrowSynopsis": "\"Você está em um cemitério e precisa atirar flechas em hordas de esqueletos para sobreviver o máximo possível.\"",
   "arrowDescription": "Projeto técnico desenvolvido para demonstrar qualidade de código, arquitetura e capacidade de resolução de problemas durante um processo de avaliação. Construído em um mês de desenvolvimento diário logo após um bootcamp ao lado de programadores seniores, marcou um salto significativo nas minhas habilidades técnicas e na compreensão de sistemas em nível de produção.",
 
-  "topDownShooterSynopsis": "\"Um shooter roguelike onde você precisa limpar áreas com inimigos e melhorar seus equipamentos para avançar cada vez mais.\"",
-  "topDownShooterDescription": "Projeto pessoal explorando geração modular de fases, sistemas de combate e progressão, com planos de lançamento futuro.",
-
   "planeSynopsis": "\"Uma experiência de sobrevivência focada em entregas, onde você pilota um avião em um mundo inundado, navegando por céus perigosos e gerenciando recursos em um ambiente dinâmico baseado em risco e recompensa.\"",
   "planeDescription": "Construindo um protótipo orientado a sistemas com foco em um core loop sólido: controles de voo responsivos e adaptáveis, sistema de loot com raridade de itens e progressão baseada em recursos. Estruturei um loop de risco e recompensa em que o jogador coleta itens raros, os troca por recursos e reinveste em melhorias para a aeronave, impulsionando exploração e tomada de decisão contínuas.",
-
-  "overthrowSynopsis": "\"Em um jogo com temática de sonhos, você precisa derrubar os obstáculos no seu caminho para chegar ao final.\"",
-  "overthrowDescription": "Desenvolvido durante meu bootcamp com orientação de desenvolvedores seniores, com foco em conceitos fundamentais de programação e bases técnicas sólidas. Apliquei sistemas importantes como object pooling, arquitetura orientada a eventos, padrões de comunicação entre classes e gerenciamento de fluxo de jogo, construindo uma base sólida para código escalável e de fácil manutenção.",
-
-  "fruitsSynopsis": "\"Enfrente inimigos e colete todas as frutas para avançar para o próximo nível neste belo jogo de plataforma 2D.\"",
-  "fruitsDescription": "Projeto pessoal focado em mecânicas de gameplay limpas e responsivas, com ênfase em comportamento de IA e sistemas fundamentais da Unity. Utilizei o projeto para explorar game feel e feedback, trabalhando com animações e efeitos visuais para entregar uma experiência fluida e estável.",
-
-  "bloodlustSynopsis": "\"Esconda-se nas sombras para sobreviver à caçada, evite ser visto pelos caçadores e sacie sua sede de sangue.\"",
-  "bloodlustDescription": "Desenvolvido durante uma game jam de 48 horas, com foco em design de gameplay e programação, incluindo mecânicas principais e level design.",
-
-  "funkinFighterSynopsis": "\"Imagine uma mistura de Street Fighter com Friday Night Funkin'. Acompanhe a música para derrotar seu oponente em uma luta de rua.\"",
-  "funkinFighterDescription": "Projeto criativo explorando mecânicas de gameplay únicas, fundindo sistemas de ritmo e combate em uma experiência coesa e funcional.",
-
-  "jumpSynopsis": "\"Salte obstáculos e supere desafios de plataforma para avançar para a próxima fase.\"",
-  "jumpDescription": "Remake do meu primeiro projeto, criado para medir minha evolução técnica na qualidade de código, estrutura e abordagem de desenvolvimento.",
 
   "contactMe": "Entre em Contato",
   "contactMeDescription": "Se quiser saber mais sobre meu trabalho ou entrar em contato comigo, fique à vontade para acessar minhas redes clicando em qualquer um dos botões abaixo!",

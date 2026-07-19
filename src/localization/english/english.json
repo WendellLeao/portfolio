@@ -38,32 +38,11 @@
   "origensSynopsis": "\"Origens is a 2D platform game where the main character takes a journey in a newly created world that evolves geologically through the ages.\"",
   "origensDescription": "Final project for my Digital Games Technology degree, where I owned programming, art, design, and narrative end to end. Implemented core systems such as save/load, collectibles, and localization, while producing art, animations, and cutscenes with Timeline and Cinemachine. A defining project in my growth as a programmer, it's where I learned to ship a cohesive, robust experience under real constraints, balancing technical execution with artistic direction and overall game vision.",
   
-  "maxProSynopsis": "\"This app introduces the most engaging way to improve your workout routine, developed for beginner and elite athletes alike who want to achieve their fitness with fun challenges and rewards each day.\"",
-  "maxProDescription": "Built gameplay systems for a mobile experience integrated with MAXPRO fitness equipment, translating real-world workout input into interactive mechanics. Focused on reliable input processing and responsiveness to deliver a smooth experience across skill levels.",
-
   "arrowSynopsis": "\"You're in a cemetery and have to shoot arrows at hordes of skeletons to survive as long as possible.\"",
   "arrowDescription": "Technical project built to demonstrate code quality, architecture, and problem-solving during a programming evaluation. Developed over a month of daily iteration right after a bootcamp spent working alongside senior programmers, it marked a significant leap in my technical skills and understanding of production-level systems.",
 
-  "topDownShooterSynopsis": "\"A roguelike shooter where you need to clear areas with enemies and improve your equipment to get further and further.\"",
-  "topDownShooterDescription": "Personal project exploring modular level generation, combat systems, and progression mechanics, with plans for future release.",
-
   "planeSynopsis": "\"A delivery-driven survival experience where you pilot a plane across a flooded world, navigating dangerous skies and managing resources in a dynamic, risk-reward driven environment.\"",
   "planeDescription": "Building a systems-driven prototype focused on a tight core gameplay loop: responsive, adaptable flight controls, a rarity-based loot system, and resource-driven progression. Designed a loop where players collect rare items, trade them for resources, and reinvest in aircraft upgrades, creating a continuous risk-reward cycle that drives exploration and decision-making.",
-
-  "overthrowSynopsis": "\"In a dream-themed game, you have to knock down the obstacles in your way to get to the end.\"",
-  "overthrowDescription": "Built during my bootcamp under guidance from senior developers, with a focus on core programming concepts and solid technical foundations. Applied key systems including object pooling, event-driven architecture, cross-class communication patterns, and game-flow management, laying the groundwork for scalable, maintainable code.",
-
-  "fruitsSynopsis": "\"Face the enemies and collect all the fruits to advance to the next level in this beautiful 2D platformer.\"",
-  "fruitsDescription": "Personal project focused on clean, responsive gameplay mechanics, with an emphasis on AI behavior and core Unity systems. Used it to explore game feel and feedback, working with animation and visual effects to deliver a fluid, stable experience.",
-
-  "bloodlustSynopsis": "\"Hide in the shadows to survive the hunt, avoid being seen by hunters and quench your bloodlust.\"",
-  "bloodlustDescription": "Built during a 48-hour game jam, with a focus on gameplay design and programming, including core mechanics and level design.",
-
-  "funkinFighterSynopsis": "\"Imagine a mix of Street Fighter and Friday Night Funkin'. Keep up with the music to beat your opponent in a street fight.\"",
-  "funkinFighterDescription": "Creative project exploring unique gameplay mechanics, fusing rhythm and fighting systems into one cohesive, functional experience.",
-
-  "jumpSynopsis": "\"Jump the obstacles and beat the platform challenges to advance to the next stage.\"",
-  "jumpDescription": "Remake of my first project, built to measure my technical growth in code quality, structure, and overall development approach.",
 
   "contactMe": "Get in Touch",
   "contactMeDescription": "If you want to know more about my work or get in touch with me, feel free to check out my networks by clicking on any of the buttons below!",
