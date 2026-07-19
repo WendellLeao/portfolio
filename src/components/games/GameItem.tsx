@@ -21,7 +21,9 @@ interface Props {
 
 const GameItem = ({id, title, synopses, description, store = "itch", url = "", videoUrl, side, shadow}: Props) => {
     const [videoHasStarted, SetVideoHasStarted] = useState(false);
-    
+    const [isMobile, SetIsMobile] = useState<boolean>(() => !window.matchMedia("(min-width: 45em)").matches);
+    const [imageLoadFailed, SetImageLoadFailed] = useState<boolean>(false);
+
     const mediaRef : RefObject<HTMLDivElement> = useRef<HTMLDivElement>(null)
     const mediaIsVisible : boolean = useOnScreen(mediaRef)
 
@@ -37,6 +39,7 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
         else {
             ShowGameSideMenu();
         }
+        SetIsMobile(!mediaQueryList.matches);
     });
     
     function ShowGameDescription() : void {
@@ -49,16 +52,30 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
         SetDisplay(gameDescriptionRef.current, "none")
     }
 
-    function GetVideoElement() : JSX.Element {
-        if (mediaIsVisible) {
+    function GetMediaElement() : JSX.Element {
+        if (!mediaIsVisible) {
+            return <></>
+        }
+
+        if (isMobile && !imageLoadFailed) {
+            const imageUrl : string = GetImageUrl();
+
             return (
                 <div className="videoContainer">
-                    <GameVideo videoUrl={videoUrl} onPlay={() => SetVideoHasStarted(true)} />
+                    <img src={imageUrl} alt={title} onError={() => SetImageLoadFailed(true)} />
                 </div>
             )
         }
 
-        return <></>
+        return (
+            <div className="videoContainer">
+                <GameVideo videoUrl={videoUrl} onPlay={() => SetVideoHasStarted(true)} />
+            </div>
+        )
+    }
+
+    function GetImageUrl() : string {
+        return videoUrl.replace("videos/", "images/").replace(".webm", ".webp");
     }
 
     function GetClassName() : string {
@@ -82,7 +99,7 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
             <div className={side}>
                 <div className={GetClassName()}>
                     <div ref={mediaRef} className="mediaContainer">
-                        {GetVideoElement()}
+                        {GetMediaElement()}
                     </div>
                     <div ref={gameDescriptionRef} id="gameDescription" className={side}>
                         <GameDescription name={title}
