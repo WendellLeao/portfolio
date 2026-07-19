@@ -21,6 +21,7 @@
 
     .gameSideMenuContainer {
         display: flex;
+        align-items: center;
         border-bottom: 3px solid #45dbe9;
         background-color: rgba(0, 0, 0, 0.75);
         backdrop-filter: blur(6px);
@@ -35,7 +36,7 @@
     .gameSideMenuContainer a img {
         width: 20px;
         height: 20px;
-        margin-top: 0.5rem;
+        margin-top: 0.2rem;
         padding-right: 0.5rem;
     }
 }
