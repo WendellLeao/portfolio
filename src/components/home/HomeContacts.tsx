@@ -4,7 +4,7 @@ import ContactImage from "../ContactImage";
 import githubIcon from '../../images/github.webp';
 import linkedinIcon from '../../images/linkedin.webp';
 import resumeIcon from '../../images/resume.webp';
-import youtubeIcon from '../../images/youtube.webp';
+import emailIcon from '../../images/email.webp';
 import './HomeContacts.css';
 import {trackButtonClick} from "../../analytics";
 
@@ -15,7 +15,7 @@ const HomeContacts = () => {
         OpenResumeFile(i18n.language);
         trackButtonClick("resume");
     }
-    
+
     function HandleGithubButtonClick(){
         trackButtonClick("github");
     }
@@ -24,15 +24,15 @@ const HomeContacts = () => {
         trackButtonClick("linkedin");
     }
 
-    function HandleYouTubeButtonClick(){
-        trackButtonClick("youtube");
+    function HandleEmailButtonClick(){
+        trackButtonClick("email");
     }
-    
+
     return (
         <ul className="homeContacts">
             <li>
-                <a className="pointerCursor" onClick={HandleResumeButtonClick} target="_blank" rel="noopener noreferrer">
-                    <ContactImage url={resumeIcon} alt="resume icon" />
+                <a href="https://www.linkedin.com/in/wendellleao/" onClick={HandleLinkedInButtonClick} target="_blank" rel="noopener noreferrer">
+                    <ContactImage url={linkedinIcon} alt="linkedin icon" />
                 </a>
             </li>
             <li>
@@ -41,13 +41,13 @@ const HomeContacts = () => {
                 </a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/wendellleao/" onClick={HandleLinkedInButtonClick} target="_blank" rel="noopener noreferrer">
-                    <ContactImage url={linkedinIcon} alt="linkedin icon" />
+                <a className="pointerCursor" onClick={HandleResumeButtonClick} target="_blank" rel="noopener noreferrer">
+                    <ContactImage url={resumeIcon} alt="resume icon" />
                 </a>
             </li>
             <li>
-                <a href="https://www.youtube.com/@wendellleao" onClick={HandleYouTubeButtonClick} target="_blank" rel="noopener noreferrer">
-                    <ContactImage url={youtubeIcon} alt="youtube icon" />
+                <a href="mailto:leaowendell@outlook.com" onClick={HandleEmailButtonClick}>
+                    <ContactImage url={emailIcon} alt="email icon" />
                 </a>
             </li>
         </ul>
