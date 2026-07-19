@@ -23,6 +23,7 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
     const [videoHasStarted, SetVideoHasStarted] = useState(false);
     const [isMobile, SetIsMobile] = useState<boolean>(() => !window.matchMedia("(min-width: 45em)").matches);
     const [imageLoadFailed, SetImageLoadFailed] = useState<boolean>(false);
+    const [descriptionRevealKey, SetDescriptionRevealKey] = useState<number>(0);
 
     const mediaRef : RefObject<HTMLDivElement> = useRef<HTMLDivElement>(null)
     const mediaIsVisible : boolean = useOnScreen(mediaRef)
@@ -45,6 +46,7 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
     function ShowGameDescription() : void {
         SetDisplay(gameDescriptionRef.current, "flex")
         SetDisplay(gameSideMenuRef.current, "none")
+        SetDescriptionRevealKey((previousKey) => previousKey + 1);
     }
     
     function ShowGameSideMenu() : void {
@@ -102,7 +104,8 @@ const GameItem = ({id, title, synopses, description, store = "itch", url = "", v
                         {GetMediaElement()}
                     </div>
                     <div ref={gameDescriptionRef} id="gameDescription" className={side}>
-                        <GameDescription name={title}
+                        <GameDescription key={descriptionRevealKey}
+                                         name={title}
                                          synopses={synopses}
                                          description={description}
                                          store={store}
