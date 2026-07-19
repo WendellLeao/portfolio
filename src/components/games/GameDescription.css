@@ -147,9 +147,19 @@
 @media (max-width: 45em) {
     #gameDescription {
         min-width: 100%;
+        top: 0;
+        bottom: 0;
     }
-    
+
     .gameDescriptionContainer {
-        margin: 10em 0.5em 0;
+        position: relative;
+        width: calc(100% - 3em);
+        height: calc(100% - 3em);
+        margin: 1.5em;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow-y: auto;
     }
 }
