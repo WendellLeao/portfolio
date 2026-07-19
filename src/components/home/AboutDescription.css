@@ -29,6 +29,7 @@
     #home #aboutDescription p {
         max-width: 90%;
         font-size: 19px;
+        text-align: justify;
     }
 
     #aboutDescription .picture img {
