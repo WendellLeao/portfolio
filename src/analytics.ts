@@ -14,7 +14,7 @@ export function trackPageView() {
 }
 
 export function trackButtonClick(buttonName: string) {
-    trackEvent("click:" + buttonName);
+    trackEvent("button_click", { button_name: buttonName });
 }
 
 export function trackGameButtonClick(gameName: string) {
