@@ -2,8 +2,8 @@ import {lazy, Suspense} from "react";
 import Loading from "../Loading";
 import './Games.css';
 
-const PixGameItem = lazy(() => import("./PixGameItem"));
 const ThePlatformItem = lazy(() => import("./ThePlatform"));
+const PixGameItem = lazy(() => import("./PixGameItem"));
 const DraftGameItem = lazy(() => import("./DraftGameItem"));
 const RogueGameItem = lazy(() => import("./RogueGameItem"));
 const UniqKillerGameItem = lazy(() => import("./UniqKillerGameItem"));
@@ -18,8 +18,8 @@ const Games = () => {
     return (
         <div className="games" id="games">
             <Suspense fallback={<Loading />}>
-                <PixGameItem />
                 <ThePlatformItem />
+                <PixGameItem />
                 <DraftGameItem />
                 <RogueGameItem />
                 <UniqKillerGameItem />

@@ -6,7 +6,7 @@ const PixGameItem = () => {
 
     return (
         <GameItem id="pix" title="PIX Football Manager" synopses="pixSynopsis" description="pixDescription" store="steam"
-                  side="right" url={pixUrl} videoUrl={pixVideoUrl} />
+                  side="left" url={pixUrl} videoUrl={pixVideoUrl} />
     )
 }
 

@@ -6,7 +6,7 @@ const ThePlatformItem = () => {
 
     return (
         <GameItem id="thePlatform" title="The Platform" synopses="thePlatformSynopsis" description="thePlatformDescription" store="steam"
-                  side="left" url={url} videoUrl={videoUrl} />
+                  side="right" url={url} videoUrl={videoUrl} />
     )
 }
 
